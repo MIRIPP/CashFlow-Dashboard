@@ -1,0 +1,503 @@
+﻿Amount,Bank,Category,Client,Date,Description,Purpose,cum_sum
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-01-04,aaa,Stuff,-42.0
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-01-04,aaa,Kundennummer V36787 KV1004 11.00,-43.1
+0.0,dkb,Zinsen,aaa,2020-01-04,aaa,Abrechnung 31.03.2020 siehe AnlageAbrechnung 31.03.2020Information zur AbrechnungKontostand am 31.03,-43.1
+-12.44,credit_card,Essen,aaa,2020-01-04,aaa,ADIS CAP MarktNeu-Ulm,-55.54
+-10.0,credit_card,aaa,aaa,2020-01-06,aaa,SPK Neu-Ulm - IllertissBRH RNO,-65.53999999999999
+-0.07,dkb,Zinsen,aaa,2020-01-07,aaa,Abrechnung 30.06.2020 siehe AnlageAbrechnung 30.06.2020Information zur AbrechnungKontostand am 30.06,-65.60999999999999
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-01-07,aaa,Stuff,-107.60999999999999
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-01-07,aaa,SPENDE 2483116 LAUFNR02686 01.01.2020 bis 31.01.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,-114.27999999999999
+-71.65,ksk,Projekte,PayPal Europe S.a.r.l. et Cie S.C.A,2020-01-07,aaa,. REICHELTELE. Ihr Einkauf bei REICHELTELE,-185.93
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-01-07,aaa,Kundennummer V36787 KV1004 11.00,-187.03
+-5.41,credit_card,Essen,aaa,2020-01-08,aaa,E-CENTER EHINGENEHINGEN,-192.44
+-13.99,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-01-08,aaa,PP.6141.PP . B W Handelsgesellschaft mbH. Ihr Einkauf bei B W Handelsgesellschaft mbH. Artikel-14340,-206.43
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-01-09,aaa,Kundennummer V36787 KV1004 11.00,-207.53
+-45.97,ksk,aaa,H+M 754 SAGT VIELEN DANK,2020-01-09,aaa,ELV66021123 07.01 19.25 ME1,-253.5
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-01-10,aaa,Stuff,-295.5
+-4.62,dkb,Zinsen,aaa,2020-01-10,aaa,Abrechnung 30.09.2020 siehe AnlageAbrechnung 30.09.2020Information zur AbrechnungKontostand am 30.09,-300.12
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-01-10,aaa,Kundennummer V36787 KV1004 11.00,-301.22
+-7.48,ksk,aaa,AMAZON PAYMENTS EUROPE S.C.A.,2020-01-10,aaa,303-0828391-5898718 AMZN Mktp DE 2C76FDNV9KMDP2DO,-308.70000000000005
+-33.77,ksk,aaa,AMAZON PAYMENTS EUROPE S.C.A.,2020-01-10,aaa,303-7180016-5465101 AMZN Mktp DE 6GATHYFA1XZHOH3V,-342.47
+-10.0,ksk,aaa,G SON//SPARKASSE MEMMINGEN-LINDAU-MINDELHEIM/DE,2020-01-11,aaa,2020-01-11T17:28 12017Debitk.1 202,-352.47
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-01-12,aaa,Stuff,-394.47
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-01-12,aaa,Kundennummer V36787 KV1004 11.00,-395.57000000000005
+-5.99,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-01-13,aaa,PP.6141.PP . . Ihr Einkauf bei . Artikel-402026325171,-401.56000000000006
+-9.75,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-01-13,aaa,2020-01-11T12:58 12012Debitk.1 202,-411.31000000000006
+-3.0,ksk,Handy,HB-Handy-Laden TAN 132205,2020-01-13,aaa,2020-01-12T15:29:06 Mobilfunknummer 015787422721 E-Plus,-414.31000000000006
+-1.38,ksk,Zug,DB AUTOMAT//MEMMINGEN/DE,2020-01-13,aaa,2020-01-12T11:41 12011Debitk.1 202,-415.69000000000005
+-10.29,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-01-14,aaa,2020-01-13T17:55 12017Debitk.1 202,-425.9800000000001
+-0.79,ksk,Drogerie,MUELLER SAGT DANKE//Ulm/DE,2020-01-15,aaa,2020-01-14T12:30 12012Debitk.1 202,-426.7700000000001
+-9.95,ksk,Bildung,PayPal Europe S.a.r.l. et Cie S.C.A,2020-01-16,aaa,PP.6141.PP . HEISEMEDIEN. Ihr Einkauf bei HEISEMEDIEN,-436.7200000000001
+-10.0,ksk,aaa,NEUE MITTE//SPARKASSE ULM/DE,2020-01-16,aaa,2020-01-16T18:26 12018Debitk.1 202,-446.7200000000001
+2508.26,ksk,Job,EDAG Engineering GmbH,2020-01-16,aaa,Lohn/Gehalt 00080050/202001,2061.54
+-12.21,ksk,Essen,REWE SAGT DANKE. 45655643//Ulm/DE,2020-01-16,aaa,2020-01-15T15:33 12015Debitk.1 202,2049.33
+-11.12,ksk,Essen,ALDI GMBH + CO. KG//MARKTOBERDORF/DE,2020-01-21,aaa,2020-01-20T19:28 12019Debitk.1 202,2038.21
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-01-21,aaa,179246,2036.14
+-7.99,ksk,aaa,90400 FENEBERG MARKTOBERDOR//Marktoberdo/DE,2020-01-22,aaa,2020-01-21T17:57 12017Debitk.1 202,2028.15
+478.88,credit_card,Transaktionen,aaa,2020-01-22,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 22.01.20,2507.03
+-3.11,ksk,Essen,ALDI GMBH + CO. KG//MARKTOBERDORF/DE,2020-01-23,aaa,2020-01-22T18:45 12018Debitk.1 202,2503.92
+-0.69,ksk,Essen,ALDI GMBH + CO. KG//MARKTOBERDORF/DE,2020-01-24,aaa,2020-01-23T19:19 12019Debitk.1 202,2503.23
+-478.88,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-01-24,aaa,VISA-ABR. 499897XXXXXX9083,2024.35
+1062.29,ksk,Steuer,Finanzamt Bad Urach (Finanzkasse),2020-01-27,aaa,ERSTATT.89818/30173 EST-VERANL. 15,3086.64
+-1.3,ksk,aaa,SAILER GBR//NEU-ULM/DE,2020-01-28,aaa,2020-01-27T19:48 12019Debitk.1 202,3085.3399999999997
+-0.64,ksk,Essen,SUBWAY RESTAURANT ULM//ULM/DE,2020-01-28,aaa,2020-01-27T12:28 12012Debitk.1 202,3084.7
+-10.0,ksk,aaa,NEUE MITTE//SPARKASSE ULM/DE,2020-01-28,aaa,2020-01-28T18:04 12018Debitk.1 202,3074.7
+-11.34,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-01-29,aaa,PP.6141.PP . GOOGLE. Ihr Einkauf bei GOOGLE,3063.3599999999997
+-0.6,ksk,Zinsen,aaa,2020-01-30,aaa,Entgeltabrechnung siehe Anlage,3062.7599999999998
+-70.0,ksk,Transaktionen,Michael Rippel,2020-01-31,aaa,bekannt,2992.7599999999998
+70.0,dkb,Transaktionen,Michael Rippel,2020-01-31,aaa,bekannt,3062.7599999999998
+-30.93,credit_card,aaa,aaa,2020-02-01,aaa,V3Z GmbHSindelfingen,3031.83
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-02-01,aaa,Kundennummer V36787 KV1004 11.00,3030.73
+-1.17,credit_card,Going out,aaa,2020-02-01,aaa,Cinemaxx Entertainm. GmbHSindelfingen,3029.56
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-02-01,aaa,Stuff,2987.56
+-10.0,ksk,aaa,ERLEBNISPARK TROEDLER//Engstingen/DE,2020-02-03,aaa,2020-02-01T01:03 22001Debitk.1 202,2977.56
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-02-03,aaa,Kundennummer V36787 KV1004 11.00,2976.46
+-40.0,dkb,Transaktionen,DKB STUDENT CARD,2020-02-03,aaa,4998970620689083 23.00 MICHAEL RIPPEL DKB INTERNET BANKING DATUM 28.02.2020. 23.00 UHR,2936.46
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-02-03,aaa,Stuff,2894.46
+40.0,credit_card,Transaktionen,aaa,2020-02-03,aaa,Einzahlung,2934.46
+-6.87,credit_card,Essen,aaa,2020-02-04,aaa,REWE Sven Thietz oHGNeu-Ulm,2927.59
+-18.64,ksk,Essen,REWE SAGT DANKE. 45655610//Neu - Ulm/DE,2020-02-05,aaa,2020-02-04T18:35 Debitk.1 2021-12,2908.9500000000003
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-02-05,aaa,SPENDE 2483116 LAUFNR02702 01.02.2020 bis 29.02.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,2902.28
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-02-06,aaa,Kundennummer V36787 KV1004 11.00,2901.1800000000003
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-02-06,aaa,Stuff,2859.1800000000003
+-10.0,ksk,aaa,BRH RWEST//SPK. NEU-ULM-ILLERTISSEN/DE,2020-02-08,aaa,2020-02-08T22:12 Debitk.1 2021-12,2849.1800000000003
+-67.99,credit_card,Kleidung,aaa,2020-02-09,aaa,SPORT SOHN HANDEL GMBHULM,2781.1900000000005
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-02-11,aaa,Stuff,2739.1900000000005
+-6.06,dkb,aaa,GEBRUEDER REO GASTRO GMBH//ULM/DE / Gebruder Reo Gastro GmbH,2020-02-11,aaa,2020-10-30T18:45 Debitk.1 2024-12,2733.1300000000006
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-02-11,aaa,Kundennummer V36787 KV1004 11.00,2732.0300000000007
+-1.01,credit_card,Drogerie,aaa,2020-02-11,aaa,MUELLER GMBH & CO.KGULM,2731.0200000000004
+-7.26,credit_card,Essen,aaa,2020-02-12,aaa,REWE Sven Thietz oHGNeu-Ulm,2723.76
+-19.21,credit_card,Essen,aaa,2020-02-12,aaa,REWE Regiemarkt GmbH SuedUlm,2704.55
+-7.44,ksk,Essen,REWE SAGT DANKE. 45655610//Neu - Ulm/DE,2020-02-12,aaa,2020-02-11T18:09 Debitk.1 2021-12,2697.11
+-5.98,ksk,Drogerie,MUELLER SAGT DANKE//Ulm/DE,2020-02-12,aaa,2020-02-11T12:03 Debitk.1 2021-12,2691.13
+-10.0,ksk,aaa,GA NR00002313 BLZ64050000 1,2020-02-13,aaa,13.02/07.29UHR GOMADING,2681.13
+-2.49,ksk,Drogerie,MUELLER SAGT DANKE//Ulm/DE,2020-02-13,aaa,2020-02-12T18:28 Debitk.1 2021-12,2678.6400000000003
+2508.26,ksk,Job,EDAG Engineering GmbH,2020-02-14,aaa,Lohn/Gehalt 00080050/202002,5186.900000000001
+-40.45,ksk,Essen,REWE SAGT DANKE. 45655687//Muensingen/DE,2020-02-14,aaa,2020-02-13T07:57 Debitk.1 2021-12,5146.450000000001
+-3.0,ksk,aaa,Baden-Wuerttembergische Bank,2020-02-17,aaa,505.18.535057.0 DATUM 17.02.2020. 19.02 UHR 1.TAN 957478,5143.450000000001
+-10.0,ksk,aaa,ERLEBNISPARK TROEDLER//Engstingen/DE,2020-02-17,aaa,2020-02-16T01:59 Debitk.1 2021-12,5133.450000000001
+-12.29,credit_card,Drogerie,aaa,2020-02-18,aaa,MUELLER GMBH & CO.KGULM,5121.160000000001
+-9.95,ksk,Bildung,PayPal Europe S.a.r.l. et Cie S.C.A,2020-02-18,aaa,PP.6141.PP . HEISEMEDIEN. Ihr Einkauf bei HEISEMEDIEN,5111.210000000001
+-11.06,credit_card,Essen,aaa,2020-02-19,aaa,REWE Weimper oHGUlm,5100.150000000001
+-10.0,credit_card,aaa,aaa,2020-02-20,aaa,SPARKASSE BODENSEEWESSENBERG,5090.150000000001
+-5.0,dkb,Transaktionen,DKB STUDENT CARD,2020-02-20,aaa,4998970620689083 21.02 MICHAEL RIPPEL DKB INTERNET BANKING DATUM 19.02.2020. 21.02 UHR,5085.150000000001
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-02-20,aaa,179246,5083.080000000001
+-23.94,credit_card,Drogerie,aaa,2020-02-20,aaa,MUELLER GMBH & CO.KGNEU-ULM,5059.140000000001
+5.0,credit_card,Transaktionen,aaa,2020-02-20,aaa,Einzahlung,5064.140000000001
+97.29,credit_card,Transaktionen,aaa,2020-02-21,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 21.02.20,5161.430000000001
+-10.0,ksk,aaa,GA NR00002313 BLZ64050000 1,2020-02-22,aaa,22.02/14.57UHR GOMADING,5151.430000000001
+-55.03,credit_card,Tanken,aaa,2020-02-23,aaa,MTB TANKST.TIMOBILEMUENSINGEN,5096.4000000000015
+-97.29,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-02-25,aaa,VISA-ABR. 499897XXXXXX9083,4999.1100000000015
+-114.86,ksk,Going out,REWE SAGT DANKE. 45655555//Ulm/DE,2020-02-25,aaa,2020-02-24T22:30 Debitk.1 2021-12 Bargeldausz. 100.00 EUR,4884.250000000002
+-3.39,ksk,aaa,SSV Ulm 1846 Fussball e. V.,2020-02-26,aaa,1530 DATUM 26.02.2020. 22.03 UHR 1.TAN 298645,4880.8600000000015
+-11.41,credit_card,Essen,aaa,2020-02-26,aaa,REWE Sven Thietz oHGNeu-Ulm,4869.450000000002
+-6.5,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-02-28,aaa,PP.6141.PP . ASMUSAMREI. Ihr Einkauf bei ASMUSAMREI,4862.950000000002
+-70.0,ksk,Transaktionen,Michael Rippel,2020-02-28,aaa,bekannt,4792.950000000002
+-0.6,ksk,Zinsen,aaa,2020-02-28,aaa,Entgeltabrechnung siehe Anlage,4792.350000000001
+70.0,dkb,Transaktionen,Michael Rippel,2020-02-28,aaa,bekannt,4862.350000000001
+-8.07,credit_card,Tanken,aaa,2020-02-29,aaa,MTB TANKST.TIMOBILEMUENSINGEN,4854.280000000002
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-03-02,aaa,Kundennummer V36787 KV1004 11.00,4853.180000000001
+-100.0,ksk,Going out,BRH RNO//SPK. NEU-ULM-ILLERTISSEN/DE,2020-03-02,aaa,2020-03-02T16:06 Debitk.1 2021-12,4753.180000000001
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-03-02,aaa,Stuff,4711.180000000001
+-3.5,credit_card,Going out,aaa,2020-03-03,aaa,Zur Zill. UlmUlm,4707.680000000001
+-19.98,credit_card,Drogerie,aaa,2020-03-03,aaa,MUELLER GMBH & CO.KGULM,4687.700000000002
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-03-05,aaa,SPENDE 2483116 LAUFNR02718 01.03.2020 bis 31.03.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,4681.030000000002
+8.96,ksk,Job,EDAG Engineering GmbH                                                 Wiesbaden,2020-03-05,aaa,RK: s. Avis vom 05.03.2020,4689.990000000002
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-03-08,aaa,Kundennummer V36787 KV1004 11.00,4688.890000000001
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-03-08,aaa,Stuff,4646.890000000001
+-1.0,ksk,Mitgliedsbeiträge,JC .Meeting. e.V.,2020-03-09,aaa,Beitrag 2019,4645.890000000001
+-350.0,ksk,aaa,aaa,2020-03-09,aaa,aaa,4295.890000000001
+-11.0,credit_card,aaa,aaa,2020-03-10,aaa,KREISSPARKASSE REUTLINGGOMADING,4284.890000000001
+-27.17,dkb,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE / CAP MARKT NEU ULM,2020-03-11,aaa,2020-11-02T17:29 Debitk.1 2024-12,4257.720000000001
+-17.54,dkb,Handy,E-Plus Service GmbH,2020-03-12,aaa,Gebuehr fuer ALDI TALK Paket L fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,4240.180000000001
+-60.05,credit_card,Tanken,aaa,2020-03-14,aaa,JET-TANKSTELLENECKARTENZLIN,4180.130000000001
+-2.99,credit_card,Going out,aaa,2020-03-15,aaa,Prime Video*085P35WN5442-011518546,4177.140000000001
+2508.26,ksk,Job,EDAG Engineering GmbH                                                 Kreuzberger Ring 40,2020-03-16,aaa,Lohn/Gehalt 00080050/202003,6685.4000000000015
+-1.85,credit_card,Projekte,aaa,2020-03-16,aaa,Hornbach Baumarkt AG FIL.Ulm,6683.550000000001
+-2.95,credit_card,Projekte,aaa,2020-03-16,aaa,Hornbach Baumarkt AG FIL.Ulm,6680.600000000001
+-114.95,credit_card,aaa,aaa,2020-03-17,aaa,GALERIA KAUFHOFULM,6565.6500000000015
+-16.48,ksk,Fahrrad,LUCKY BIKE ULM//Ulm/DE,2020-03-17,aaa,2020-03-16T11:51 Debitk.1 2021-12,6549.170000000002
+-89.98,credit_card,Kleidung,aaa,2020-03-17,aaa,PEEK & CLOPPENBURGULM,6459.190000000002
+-31.12,credit_card,Essen,aaa,2020-03-18,aaa,REWE Ulm/Mitte SchUlm,6428.070000000002
+105.13,credit_card,Transaktionen,aaa,2020-03-20,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 20.03.20,6533.200000000003
+-37.24,credit_card,Going out,aaa,2020-03-20,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,6495.960000000003
+-5.05,credit_card,Essen,aaa,2020-03-20,aaa,REWE Sven Thietz oHGNeu-Ulm,6490.910000000003
+-23.84,credit_card,Essen,aaa,2020-03-20,aaa,Lidl Vertriebs GmbH & Co.Ulm,6467.070000000002
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-03-20,aaa,179246,6465.000000000003
+-28.38,credit_card,Essen,aaa,2020-03-21,aaa,REWE Sven Thietz oHGNeu-Ulm,6436.620000000003
+-37.83,credit_card,Drogerie,aaa,2020-03-21,aaa,DM-Drogerie MarktNeu-Ulm,6398.790000000003
+-21.96,credit_card,Essen,aaa,2020-03-23,aaa,REWE Weimper oHGUlm,6376.830000000003
+-105.13,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-03-24,aaa,VISA-ABR. 499897XXXXXX9083,6271.700000000003
+-10.76,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-03-25,aaa,2020-03-24T12:54 Debitk.1 2021-12,6260.940000000002
+-58.75,credit_card,Tanken,aaa,2020-03-29,aaa,AVIA TANKSTELLE 122043MUENSINGEN,6202.190000000002
+0.0,ksk,Zinsen,aaa,2020-03-30,aaa,Abrechnung 31.03.2020 siehe Anlage,6202.190000000002
+-0.6,ksk,Zinsen,aaa,2020-03-30,aaa,Entgeltabrechnung siehe Anlage,6201.590000000002
+-23.29,credit_card,Essen,aaa,2020-03-30,aaa,REWE Sven Thietz oHGNeu-Ulm,6178.300000000002
+70.0,dkb,Transaktionen,Michael Rippel,2020-03-31,aaa,bekannt,6248.300000000002
+-26.33,credit_card,Essen,aaa,2020-03-31,aaa,REWE Sven Thietz oHGNeu-Ulm,6221.970000000002
+-70.0,ksk,Transaktionen,Michael Rippel,2020-03-31,aaa,bekannt,6151.970000000002
+-24.19,credit_card,aaa,aaa,2020-04-01,aaa,V3Z GmbHSindelfingen,6127.7800000000025
+-7.95,credit_card,Projekte,aaa,2020-04-03,aaa,BAUHAUS 599ULM,6119.830000000003
+-99.99,ksk,Projekte,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-03,aaa,PP.6141.PP . SATURNONLIN. Ihr Einkauf bei SATURNONLIN,6019.840000000003
+-18.59,credit_card,Essen,aaa,2020-04-04,aaa,REWE Weimper oHGUlm,6001.250000000003
+-42.0,dkb,Wohnung,OLIVER SCHUMANN,2020-04-05,aaa,Stuff,5959.250000000003
+-1.1,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-04-05,aaa,Kundennummer V36787 KV1004 11.00,5958.150000000002
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-04-06,aaa,SPENDE 2483116 LAUFNR02734 01.04.2020 bis 30.04.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,5951.480000000002
+-24.51,credit_card,aaa,aaa,2020-04-07,aaa,SHELL 2616NEU-ULM,5926.970000000002
+-3.0,dkb,Handy,E-Plus Service GmbH,2020-04-08,aaa,Einmalige Aufladung fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,5923.970000000002
+-0.24,dkb,aaa,Oststadtbäckerei Kreibich//ULM/DE / Oststadtbäckerei Kreibich,2020-04-11,aaa,2020-11-03T11:57 Debitk.1 2024-12,5923.730000000002
+-0.11,credit_card,aaa,aaa,2020-04-14,aaa,ULM HBFULM,5923.620000000003
+-12.34,credit_card,Essen,aaa,2020-04-14,aaa,REWE Weimper oHGUlm,5911.2800000000025
+-3.0,dkb,Handy,E-Plus Service GmbH,2020-04-14,aaa,Einmalige Aufladung fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,5908.2800000000025
+2508.26,ksk,Job,EDAG Engineering GmbH,2020-04-15,aaa,Lohn/Gehalt 00080050/202004,8416.540000000003
+-4.5,ksk,Mitgliedsbeiträge,SV Lautertal 2017 e.V.,2020-04-15,aaa,MNR. 442 - 2/Jahresbeitrag 2020,8412.040000000003
+-37.42,credit_card,aaa,aaa,2020-04-15,aaa,AMZN Mktp DE*OZ2KP7VP5800-279-6620,8374.620000000003
+-2.69,credit_card,Essen,aaa,2020-04-16,aaa,REWE Weimper oHGUlm,8371.930000000002
+176.98,ksk,Versicherungen,JOCHEN RIPPEL U. ROSE RIPPEL,2020-04-16,aaa,Rücküberweisung Kfz- Versicherung,8548.910000000002
+-2.77,credit_card,Essen,aaa,2020-04-18,aaa,REWE Sven Thietz oHGNeu-Ulm,8546.140000000001
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-04-20,aaa,179246,8544.070000000002
+-134.23,ksk,Projekte,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-21,aaa,. REICHELTELE. Ihr Einkauf bei REICHELTELE,8409.840000000002
+-4.18,credit_card,Essen,aaa,2020-04-21,aaa,REWE Weimper oHGUlm,8405.660000000002
+-0.79,ksk,Projekte,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-22,aaa,PP.6141.PP . Funduino GmbH. Ihr Einkauf bei Funduino GmbH. Artikel-163692689123,8404.87
+416.93,credit_card,Transaktionen,aaa,2020-04-22,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 22.04.20,8821.800000000001
+-22.88,credit_card,Going out,aaa,2020-04-22,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,8798.920000000002
+-2.95,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-23,aaa,PP.6141.PP . EBAYKLEINAN. Ihr Einkauf bei EBAYKLEINAN,8795.970000000001
+-3.08,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-23,aaa,PP.6141.PP . ASMUSAMREI. Ihr Einkauf bei ASMUSAMREI,8792.890000000001
+-416.93,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-04-24,aaa,VISA-ABR. 499897XXXXXX9083,8375.960000000001
+-12.55,credit_card,Essen gehen,aaa,2020-04-26,aaa,MCDONALDS RESTAURANTMERKLINGEN,8363.410000000002
+-55.07,credit_card,Tanken,aaa,2020-04-26,aaa,MTB TANKST.TIMOBILEMUENSINGEN,8308.340000000002
+-10.2,dkb,aaa,Bundeskasse in Weiden,2020-04-27,aaa,Kfz-Steuer fuer RT M 2034 fuer die Zeit vom 12.03.2020 bis zum 11.03.2021 Kassenzeichen K11853703447,8298.140000000001
+-2.95,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-28,aaa,PP.6141.PP . EBAYKLEINAN. Ihr Einkauf bei EBAYKLEINAN,8295.19
+-5.81,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-28,aaa,PP.6141.PP . PADDLE.COM. Ihr Einkauf bei PADDLE.COM,8289.380000000001
+-30.99,ksk,Projekte,PayPal Europe S.a.r.l. et Cie S.C.A,2020-04-29,aaa,PP.6141.PP . MEDIAMARKT. Ihr Einkauf bei MEDIAMARKT,8258.390000000001
+-46.39,credit_card,Essen,aaa,2020-04-29,aaa,ADIS CAP MarktNeu-Ulm,8212.000000000002
+70.0,dkb,Transaktionen,Michael Rippel,2020-04-30,aaa,bekannt,8282.000000000002
+-51.05,credit_card,Going out,aaa,2020-04-30,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,8230.950000000003
+-70.0,ksk,Transaktionen,Michael Rippel,2020-04-30,aaa,bekannt,8160.950000000003
+-0.6,ksk,Zinsen,aaa,2020-04-30,aaa,Entgeltabrechnung siehe Anlage,8160.350000000002
+-8.55,ksk,aaa,ALBKORN BAECKEREI GLOCKER Marktpla GIR 79940042//GOMADINGEN/DE,2020-05-04,aaa,2020-05-03T11:04 Debitk.1 2021-12,8151.800000000002
+-2.22,credit_card,Essen,aaa,2020-05-05,aaa,REWE Sven Thietz oHGNeu-Ulm,8149.580000000002
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-05-05,aaa,SPENDE 2483116 LAUFNR02763 01.05.2020 bis 31.05.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,8142.910000000002
+-13.74,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-05-07,aaa,2020-05-06T12:39 Debitk.1 2021-12,8129.170000000002
+-10.0,credit_card,aaa,aaa,2020-05-08,aaa,VB ULM-BIBERACH EGOSTSTADT,8119.170000000002
+-2.75,ksk,Transaktionen,SV Lautertal,2020-05-09,aaa,SV Hoodie Michael Rippel DATUM 09.05.2020. 09.34 UHR 1.TAN 764506,8116.420000000002
+-14.17,dkb,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE / CAP MARKT NEU ULM,2020-05-11,aaa,2020-11-04T18:49 Debitk.1 2024-12,8102.250000000002
+-17.54,dkb,Handy,E-Plus Service GmbH,2020-05-11,aaa,Gebuehr fuer ALDI TALK Paket L fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,8084.710000000002
+-1.0,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-11,aaa,. EBAY. Ihr Einkauf bei EBAY AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0800) 1234-111,8083.710000000002
+-43.47,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-13,aaa,PP.6141.PP . CONRADELECT. Ihr Einkauf bei CONRADELECT,8040.240000000002
+-3.8,ksk,Essen,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-14,aaa,PP.6141.PP . TAKEAWAYCOM. Ihr Einkauf bei TAKEAWAYCOM,8036.440000000001
+-10.0,credit_card,aaa,aaa,2020-05-15,aaa,SPK Neu-Ulm - IllertissBRH ROST,8026.440000000001
+-0.94,credit_card,aaa,aaa,2020-05-16,aaa,DB CALL CENTERBERLIN,8025.500000000002
+-16.36,credit_card,Essen gehen,aaa,2020-05-17,aaa,BURGER KING 14354ULM,8009.140000000002
+-40.26,credit_card,Tanken,aaa,2020-05-17,aaa,AVIA TANKSTELLEULM,7968.880000000002
+2414.52,ksk,Job,EDAG Engineering Gmb,2020-05-18,aaa,Lohn/Gehalt 00080050/202005,10383.400000000001
+-10.15,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-05-18,aaa,2020-05-15T18:40 Debitk.1 2021-12,10373.250000000002
+-8.88,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-19,aaa,. EBAY. Ihr Einkauf bei EBAY,10364.370000000003
+-0.46,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-19,aaa,PP.6141.PP . Gamefox S.L.. Ihr Einkauf bei Gamefox S.L.. Artikel-323964079384,10363.910000000003
+-1.85,ksk,Essen,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-20,aaa,PP.6141.PP . TAKEAWAYCOM. Ihr Einkauf bei TAKEAWAYCOM,10362.060000000003
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-05-20,aaa,179246,10359.990000000003
+459.59,credit_card,Transaktionen,aaa,2020-05-22,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 22.05.20,10819.580000000004
+-34.79,credit_card,Essen,aaa,2020-05-23,aaa,REWE Weber oHGMuensingen,10784.790000000003
+-0.59,credit_card,Essen,aaa,2020-05-25,aaa,SUBWAY 33415ULM,10784.200000000003
+-6.31,credit_card,Going out,aaa,2020-05-25,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,10777.890000000003
+-16.26,credit_card,Essen,aaa,2020-05-25,aaa,REWE Sven Thietz oHGNeu-Ulm,10761.630000000003
+-13.05,credit_card,Essen,aaa,2020-05-26,aaa,REWE Weimper oHGUlm,10748.580000000004
+-4.34,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-26,aaa,PP.6141.PP . CHRISTIANS. Ihr Einkauf bei CHRISTIANS,10744.240000000003
+-459.59,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-05-26,aaa,VISA-ABR. 499897XXXXXX9083,10284.650000000003
+-13.98,ksk,Fahrrad,LUCKY BIKE ULM//Ulm/DE,2020-05-27,aaa,2020-05-26T11:49 Debitk.1 2021-12,10270.670000000004
+-0.22,credit_card,Zug,aaa,2020-05-29,aaa,HANDYTICKET DE LOGPAYESCHBORN,10270.450000000004
+70.0,dkb,Transaktionen,Michael Rippel,2020-05-29,aaa,bekannt,10340.450000000004
+-83.24,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-29,aaa,PP.6141.PP . GOOGLE. Ihr Einkauf bei GOOGLE,10257.210000000005
+-45.99,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-05-29,aaa,PP.6141.PP . ANKERTECHNO. Ihr Einkauf bei ANKERTECHNO,10211.220000000005
+-0.6,ksk,Zinsen,aaa,2020-05-29,aaa,Entgeltabrechnung siehe Anlage,10210.620000000004
+-70.0,ksk,Transaktionen,Michael Rippel,2020-05-29,aaa,bekannt,10140.620000000004
+-9.99,credit_card,Projekte,aaa,2020-05-30,aaa,Media Markt TV-HiFi-ElektNeu-Ulm,10130.630000000005
+-17.23,credit_card,Essen,aaa,2020-05-30,aaa,REWE Sven Thietz oHGNeu-Ulm,10113.400000000005
+-58.93,credit_card,Tanken,aaa,2020-06-01,aaa,ESSO STAT. SINDELFINGESINDELFINGEN,10054.470000000005
+-30.17,ksk,Essen,REWE SAGT DANKE. 45655643//Ulm/DE,2020-06-02,aaa,2020-05-29T21:08 Debitk.1 2021-12,10024.300000000005
+-7.85,ksk,Going out,BRAUEREI GOLD OCHSEN GMBH//ULM/DE,2020-06-02,aaa,2020-05-29T15:41 Debitk.1 2021-12,10016.450000000004
+-14.82,ksk,Essen,REWE SAGT DANKE. 45655610//Neu - Ulm/DE,2020-06-02,aaa,2020-05-30T11:35 Debitk.1 2021-12,10001.630000000005
+-5.99,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-06-03,aaa,PP.6141.PP . AuktionPower Gmbh. Ihr Einkauf bei AuktionPower Gmbh. Artikel-174011244483,9995.640000000005
+-5.98,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-06-03,aaa,PP.6141.PP . Gerscha GmbH. Ihr Einkauf bei Gerscha GmbH. Artikel-324032518742,9989.660000000005
+-3.0,dkb,Handy,E-Plus Service GmbH,2020-06-03,aaa,Einmalige Aufladung fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,9986.660000000005
+-7.99,credit_card,Going out,aaa,2020-06-04,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,9978.670000000006
+-39.99,credit_card,aaa,aaa,2020-06-05,aaa,HELLOFRESH*291796826Berlin,9938.680000000006
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-06-05,aaa,SPENDE 2483116 LAUFNR02780 01.06.2020 bis 30.06.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,9932.010000000006
+-282.89,ksk,Versicherungen,Wuertt. Gemeinde-Versicherung a.G.,2020-06-05,aaa,R 544 822 194 6 VK 4431610 P 90 133 006-3 DATUM 05.06.2020. 16.52 UHR 1.TAN 978665,9649.120000000006
+-0.25,ksk,Versicherungen,Wuerttembergische Gemeinde-Versicherung a.G,2020-06-05,aaa,R 544 822 194 6 VK 4431610P 90 133 006-3 DATUM 05.06.2020. 17.02 UHR 1.TAN 805950,9648.870000000006
+-5.97,credit_card,Projekte,aaa,2020-06-07,aaa,Hornbach Baumarkt AG FIL.Ulm,9642.900000000007
+-30.0,dkb,Transaktionen,DKB STUDENT CARD,2020-06-08,aaa,4998970620689083 18.55 MICHAEL RIPPEL DKB INTERNET BANKING DATUM 05.08.2020. 18.55 UHR,9612.900000000007
+30.0,credit_card,Transaktionen,aaa,2020-06-08,aaa,Einzahlung,9642.900000000007
+-27.79,credit_card,Essen,aaa,2020-06-08,aaa,EDEKA DOERFLINGER. ULMULM,9615.110000000006
+-4.1,ksk,Essen,PayPal Europe S.a.r.l. et Cie S.C.A,2020-06-08,aaa,PP.6141.PP . TAKEAWAYCOM. Ihr Einkauf bei TAKEAWAYCOM,9611.010000000006
+-0.88,credit_card,Going out,aaa,2020-06-09,aaa,XinedomeUlm,9610.130000000006
+-7.49,ksk,aaa,ULM 1//ULM/DE,2020-06-10,aaa,2020-06-09T11:57 Debitk.1 2021-12,9602.640000000007
+-4.59,credit_card,aaa,aaa,2020-06-13,aaa,AMZN Mktp DE*GB29U5GE5800-279-6620,9598.050000000007
+-32.31,credit_card,aaa,aaa,2020-06-13,aaa,AMZN Mktp DE*IR3MX3AH5800-279-6620,9565.740000000007
+-2.38,credit_card,aaa,aaa,2020-06-15,aaa,H und J GbRUlm,9563.360000000008
+-8.95,credit_card,Essen,aaa,2020-06-15,aaa,REWE Weimper oHGUlm,9554.410000000007
+2414.52,ksk,Job,EDAG Engineering GmbH,2020-06-16,aaa,Lohn/Gehalt 00080050/202006,11968.930000000008
+-7.49,ksk,aaa,ULM 1//ULM/DE,2020-06-16,aaa,2020-06-15T18:29 Debitk.1 2021-12,11961.440000000008
+-22.45,credit_card,Essen,aaa,2020-06-18,aaa,Lidl Vertriebs GmbH & Co.Ulm,11938.990000000007
+35.0,credit_card,Transaktionen,aaa,2020-06-19,aaa,Einzahlung,11973.990000000007
+-66.8,ksk,Transaktionen,FKP Scorpio Konzertproduktionen GmbH,2020-06-19,aaa,201388. Michael Rippel DATUM 19.06.2020. 22.56 UHR 1.TAN 931559,11907.190000000008
+-35.0,dkb,Transaktionen,DKB STUDENT CARD,2020-06-19,aaa,4998970620689083 15.44 MICHAEL RIPPEL DKB INTERNET BANKING DATUM 19.06.2020. 15.44 UHR,11872.190000000008
+97.98,credit_card,Transaktionen,aaa,2020-06-22,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 22.06.20,11970.170000000007
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-06-22,aaa,179246,11968.100000000008
+-11.99,credit_card,Drogerie,aaa,2020-06-23,aaa,MUELLER GMBH & CO.KGULM,11956.110000000008
+-2.85,ksk,Projekte,MUEKRA ELECTRONIC SHOP GMBH//GOEPPINGEN/DE,2020-06-24,aaa,2020-06-23T11:54 Debitk.1 2021-12,11953.260000000007
+-10.0,credit_card,aaa,aaa,2020-06-24,aaa,VB ULM-BIBERACH EGOSTSTADT,11943.260000000007
+-97.98,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-06-24,aaa,VISA-ABR. 499897XXXXXX9083,11845.280000000008
+-2.79,credit_card,Going out,aaa,2020-06-28,aaa,Zur Zill. UlmUlm,11842.490000000007
+-0.22,credit_card,Zug,aaa,2020-06-30,aaa,HANDYTICKET DE LOGPAYESCHBORN,11842.270000000008
+-8.56,credit_card,Tanken,aaa,2020-06-30,aaa,ARAL STATION 285975116ULM,11833.710000000008
+70.0,dkb,Transaktionen,Michael Rippel,2020-06-30,aaa,bekannt,11903.710000000008
+0.0,ksk,Zinsen,aaa,2020-06-30,aaa,Abrechnung 30.06.2020 siehe Anlage,11903.710000000008
+-0.6,ksk,Zinsen,aaa,2020-06-30,aaa,Entgeltabrechnung siehe Anlage,11903.110000000008
+-46.08,ksk,aaa,GZA MOTORS,2020-06-30,aaa,52486 DATUM 30.06.2020. 08.16 UHR1.TAN 353290,11857.030000000008
+-70.0,ksk,Transaktionen,Michael Rippel,2020-06-30,aaa,bekannt,11787.030000000008
+-8.95,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-06-30,aaa,PP.6141.PP . Die Agentur DISA MOPEDSTORE. Ihr Einkauf bei Die Agentur DISA MOPEDSTORE. Artikel-35279,11778.080000000007
+-70.17,credit_card,Kleidung,aaa,2020-07-01,aaa,PEEK & CLOPPENBURGULM,11707.910000000007
+-5.97,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-07-03,aaa,2020-07-01T17:12 Debitk.1 2021-12,11701.940000000008
+-10.0,ksk,aaa,BRH RNO//SPK. NEU-ULM-ILLERTISSEN/DE,2020-07-04,aaa,2020-07-04T19:03 Debitk.1 2021-12,11691.940000000008
+-47.87,credit_card,Essen,aaa,2020-07-04,aaa,REWE Sven Thietz oHGNeu-Ulm,11644.070000000007
+-0.5,dkb,Handy,E-Plus Service GmbH,2020-07-04,aaa,Einmalige Aufladung fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,11643.570000000007
+-364.73,ksk,aaa,SIXT CAR RENTAL//PULLACH/DE/0,2020-07-06,aaa,2020-07-03T12:58 Debitk.1 2021-12,11278.840000000007
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-07-06,aaa,SPENDE 2483116 LAUFNR02797 01.07.2020 bis 31.07.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,11272.170000000007
+-10.93,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-07-06,aaa,2020-07-04T10:31 Debitk.1 2021-12,11261.240000000007
+-28.69,credit_card,Projekte,aaa,2020-07-08,aaa,Hornbach Baumarkt AG FIL.Ulm,11232.550000000007
+-8.39,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-07-09,aaa,2020-07-08T17:54 Debitk.1 2021-12,11224.160000000007
+129.51,ksk,aaa,ISSUER,2020-07-10,aaa,Gutschrift 2020-07-08T03:03:10/SIXT 9469960922.M//PULLACH/DE/0,11353.670000000007
+-2.15,credit_card,aaa,aaa,2020-07-11,aaa,FloremNeu-Ulm,11351.520000000008
+-39.84,credit_card,Essen,aaa,2020-07-11,aaa,REWE Tim Michalik oHGUlm,11311.680000000008
+0.1,dkb,aaa,Klarna Bank AB,2020-07-12,aaa,KLARNA RETUR. 2283442300,11311.780000000008
+-21.12,credit_card,Essen,aaa,2020-07-13,aaa,REWE Tim Michalik oHGUlm,11290.660000000007
+-1.72,credit_card,Essen,aaa,2020-07-14,aaa,REWE Janine Kirkamm oHGUlm,11288.940000000008
+-5.16,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-07-14,aaa,2020-07-13T11:45 Debitk.1 2021-12,11283.780000000008
+2414.52,ksk,Job,EDAG Engineering GmbH,2020-07-15,aaa,Lohn/Gehalt 00080050/202007,13698.300000000008
+47.09,ksk,aaa,PAYPAL EUROPE SARL ET CIE SCA                                         22 24 BOULEVARD ROY,2020-07-16,aaa,AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK (0800) 1234-111,13745.390000000009
+-14.56,credit_card,Projekte,aaa,2020-07-18,aaa,BAUHAUS 599ULM,13730.830000000009
+-60.05,credit_card,Tanken,aaa,2020-07-18,aaa,Agip Service-StationMuensingen,13670.78000000001
+-3.93,credit_card,Going out,aaa,2020-07-20,aaa,ChocletUlm,13666.85000000001
+-99.99,ksk,aaa,STABILO WERKZEUGFAC//MUENSINGEN/DE,2020-07-20,aaa,2020-07-18T15:17 Debitk.1 2021-12,13566.86000000001
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-07-20,aaa,179246,13564.79000000001
+50.0,credit_card,Transaktionen,aaa,2020-07-21,aaa,Einzahlung,13614.79000000001
+-0.88,credit_card,aaa,aaa,2020-07-21,aaa,RENE HERRMANN E.K. ROEROEBEL,13613.91000000001
+-50.0,dkb,Transaktionen,DKB STUDENT CARD,2020-07-21,aaa,4998970620689083 16.26 MICHAEL RIPPEL DKB INTERNET BANKING DATUM 21.07.2020. 16.26 UHR,13563.91000000001
+-3.89,credit_card,aaa,aaa,2020-07-22,aaa,SCHLICHT LEBENSMITTELZINGST,13560.020000000011
+-34.02,credit_card,Urlaub,aaa,2020-07-22,aaa,HOTEL VIER JAHRESZEITEZINGST,13526.000000000011
+-1.6,ksk,aaa,1. DARSSER BETRIEBSGESELLS//ZINGST/DE,2020-07-23,aaa,2020-07-22T18:48 Debitk.1 2021-12,13524.40000000001
+-502.44,ksk,aaa,SIXT CAR RENTAL//PULLACH/DE/0,2020-07-23,aaa,2020-07-21T08:13 Debitk.1 2021-12,13021.96000000001
+-12.19,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-07-23,aaa,PP.6141.PP . DBVERTRIEBG. Ihr Einkauf bei DBVERTRIEBG,13009.77000000001
+-20.0,ksk,aaa,WUSTROW//SPARKASSE VORPOMMERN/DE,2020-07-23,aaa,2020-07-23T10:22 Debitk.1 2021-12,12989.77000000001
+-3.52,credit_card,Urlaub,aaa,2020-07-24,aaa,HOTEL VIER JAHRESZEITEZINGST,12986.25000000001
+-3.73,credit_card,Kleidung,aaa,2020-07-24,aaa,Bahlsen Outlet RostockBroderstorf,12982.52000000001
+-25.33,credit_card,Kleidung,aaa,2020-07-24,aaa,PUMA Outlet BroderstorfBroderstorf,12957.19000000001
+-61.33,credit_card,Tanken,aaa,2020-07-24,aaa,JET-TANKSTELLEROGGENTIN,12895.86000000001
+-6.85,credit_card,aaa,aaa,2020-07-24,aaa,Lindt Shop RostockBroderstorf,12889.01000000001
+-72.16,credit_card,Kleidung,aaa,2020-07-24,aaa,MARC O'POLO EINZELHANDWUERZBERG,12816.85000000001
+-34.98,credit_card,aaa,aaa,2020-07-24,aaa,OTEX ROSTOCK GMBHBRODERSTORF,12781.87000000001
+-19.66,credit_card,aaa,aaa,2020-07-25,aaa,RENE HERRMANN E.K. ROEROEBEL,12762.21000000001
+-16.37,credit_card,Essen,aaa,2020-07-27,aaa,ALDI SUEDUlm,12745.84000000001
+-4.22,ksk,Drogerie,MUELLER SAGT DANKE//Ulm/DE,2020-07-30,aaa,2020-07-29T11:54 Debitk.1 2021-12,12741.62000000001
+-0.6,ksk,Zinsen,aaa,2020-07-30,aaa,Entgeltabrechnung siehe Anlage,12741.02000000001
+70.0,dkb,Transaktionen,Michael Rippel,2020-07-31,aaa,bekannt,12811.02000000001
+-70.0,ksk,Transaktionen,Michael Rippel,2020-07-31,aaa,bekannt,12741.02000000001
+-12.99,ksk,Kleidung,SPORT-SOHN HANDEL GMBH + CO.KG//ULM/DE,2020-08-03,aaa,2020-07-31T16:32 Debitk.1 2021-12,12728.03000000001
+47.93,ksk,aaa,ISSUER,2020-08-03,aaa,Gutschrift 2020-07-30T03:39:24/SIXT 9470620612.M//PULLACH/DE/0,12775.96000000001
+-1.39,ksk,Versicherungen,Allg.Deutscher Automobil-Club ADAC e.V.,2020-08-03,aaa,KRANKENSCHUTZ-BEITRAG FÄLLIG: 01.08.20 RIPPEL. MICHAEL ADAC VERSICHERUNG AG,12774.57000000001
+-136.28,ksk,Kleidung,Zalando Outlet Sedelhofgasse//Ulm/DE,2020-08-03,aaa,2020-07-31T12:28 Debitk.1 2021-12,12638.29000000001
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-08-05,aaa,SPENDE 2483116 LAUFNR02812 01.08.2020 bis 31.08.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,12631.62000000001
+-20.59,credit_card,Going out,aaa,2020-08-05,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,12611.03000000001
+-0.22,credit_card,Zug,aaa,2020-08-06,aaa,HANDYTICKET DE LOGPAYESCHBORN,12610.81000000001
+-1.72,credit_card,Essen,aaa,2020-08-06,aaa,REWE Sven Thietz oHGNeu-Ulm,12609.090000000011
+138.02,ksk,aaa,Hertz Autovermietung GmbH                                             Ludwig-Erhard-Str. 12,2020-08-07,aaa,EFT040820MDDERAC,12747.110000000011
+-17.54,dkb,Handy,E-Plus Service GmbH,2020-08-10,aaa,Gebuehr fuer ALDI TALK Paket L fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,12729.57000000001
+-24.31,dkb,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE / CAP MARKT NEU ULM,2020-08-12,aaa,2020-12-07T18:55 Debitk.1 2024-12,12705.260000000011
+-5.55,credit_card,aaa,aaa,2020-08-14,aaa,6060Ulm,12699.710000000012
+-10.0,ksk,aaa,GA NR00002313 BLZ64050000 1,2020-08-15,aaa,15.08/15.28UHR GOMADING,12689.710000000012
+2414.52,ksk,Job,EDAG Engineering GmbH,2020-08-17,aaa,Lohn/Gehalt 00080050/202008,15104.230000000012
+-8.97,ksk,Essen gehen,01262 MCDONALDS//MUENSINGEN/DE,2020-08-17,aaa,2020-08-16T16:31 Debitk.1 2021-12,15095.260000000013
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-08-18,aaa,179246,15093.190000000013
+-1.11,ksk,aaa,meins24 ohg,2020-08-19,aaa,391685121 - 30012216 DATUM 19.08.2020. 18.20 UHR 1.TAN 435388,15092.080000000013
+-0.5,ksk,aaa,Philipp Gayer,2020-08-19,aaa,Porto für Schluessel DATUM 19.08.2020. 18.30 UHR 1.TAN 258791,15091.580000000013
+-10.0,credit_card,aaa,aaa,2020-08-19,aaa,VB ULM-BIBERACH EGNEU-ULM,15081.580000000013
+-21.66,credit_card,Essen,aaa,2020-08-19,aaa,REWE Weimper oHGUlm,15059.920000000013
+-42.98,ksk,Going out,FINKBEINER GMBH + C//NEU-ULM/DE,2020-08-20,aaa,2020-08-19T09:56 Debitk.1 2021-12,15016.940000000013
+10.0,credit_card,Transaktionen,aaa,2020-08-20,aaa,Einzahlung,15026.940000000013
+-10.0,dkb,Transaktionen,DKB STUDENT CARD,2020-08-20,aaa,4998970620689083 19.12 MICHAEL RIPPEL DKB INTERNET BANKING DATUM 19.08.2020. 19.12 UHR,15016.940000000013
+464.35,credit_card,Transaktionen,aaa,2020-08-21,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 21.08.20,15481.290000000014
+-3.79,ksk,Kleidung,PayPal Europe S.a.r.l. et Cie S.C.A,2020-08-21,aaa,PP.6141.PP . ZALANDOSE. Ihr Einkauf bei ZALANDOSE,15477.500000000013
+-31.31,credit_card,Kleidung,aaa,2020-08-22,aaa,H&M AUGSBURG 1DE0055AUGSBURG,15446.190000000013
+-18.45,ksk,aaa,GEPPS GMBH AUGSBURG GIR 69199366//AUGSBURG/DE,2020-08-24,aaa,2020-08-22T17:46 Debitk.1 2021-12,15427.740000000013
+-23.03,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-08-24,aaa,2020-08-21T14:45 Debitk.1 2021-12,15404.710000000012
+-0.35,ksk,Essen,METZGERIMBISS BUNK//ULM . DONAU/DE,2020-08-25,aaa,2020-08-24T12:30 Debitk.1 2021-12,15404.360000000011
+-464.35,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-08-25,aaa,VISA-ABR. 499897XXXXXX9083,14940.010000000011
+-31.84,credit_card,aaa,aaa,2020-08-25,aaa,AMZN Mktp DE*JL95D3VR5800-279-6620,14908.170000000011
+-13.97,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-08-25,aaa,2020-08-24T18:29 Debitk.1 2021-12,14894.200000000012
+-3.88,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-08-26,aaa,2020-08-25T18:28 Debitk.1 2021-12,14890.320000000012
+-7.18,credit_card,aaa,aaa,2020-08-26,aaa,SAPPER GASTRONOMIEBETRTUEBINGEN,14883.140000000012
+-8.37,credit_card,Tanken,aaa,2020-08-30,aaa,ARAL STATION 151218112MERKLINGEN,14874.770000000011
+-4.99,credit_card,Essen gehen,aaa,2020-08-30,aaa,MCDONALDS RESTAURANTMERKLINGEN,14869.780000000012
+-0.6,ksk,Zinsen,aaa,2020-08-30,aaa,Entgeltabrechnung siehe Anlage,14869.180000000011
+-5.98,credit_card,aaa,aaa,2020-08-31,aaa,H und J GbRUlm,14863.200000000012
+70.0,dkb,Transaktionen,Michael Rippel,2020-08-31,aaa,bekannt,14933.200000000012
+-70.0,ksk,Transaktionen,Michael Rippel,2020-08-31,aaa,bekannt,14863.200000000012
+-38.79,ksk,Fahrrad,LUCKY BIKE ULM//Ulm/DE,2020-09-02,aaa,2020-08-31T12:00 Debitk.1 2021-12,14824.41000000001
+-1.0,dkb,Handy,E-Plus Service GmbH,2020-09-04,aaa,Einmalige Aufladung fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,14823.41000000001
+-53.34,ksk,Fahrrad,LUCKY BIKE ULM//Ulm/DE,2020-09-04,aaa,2020-09-03T18:11 Debitk.1 2021-12,14770.07000000001
+-5.06,credit_card,aaa,aaa,2020-09-06,aaa,H und J GbRUlm,14765.010000000011
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-09-07,aaa,SPENDE 2483116 LAUFNR02834 01.09.2020 bis 30.09.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,14758.340000000011
+-2.0,ksk,Auto,Zentrale Bussgeldstelle Artern,2020-09-07,aaa,9914049761206Kfz: M-LK5214 DATUM 07.09.2020. 19.37 UHR1.TAN 948225,14756.340000000011
+-0.35,ksk,Essen,METZGERIMBISS BUNK//ULM . DONAU/DE,2020-09-07,aaa,2020-09-04T11:46 Debitk.1 2021-12,14755.99000000001
+-2.5,ksk,aaa,Sixt,2020-09-08,aaa,4961416 DATUM 08.09.2020. 20.49 UHR 1.TAN 185421,14753.49000000001
+-5.48,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-09-09,aaa,2020-09-08T18:21 Debitk.1 2021-12,14748.010000000011
+-4.59,credit_card,Essen gehen,aaa,2020-09-10,aaa,MCDONALDS RESTAURANTMERKLINGEN,14743.420000000011
+589.51,ksk,aaa,PAYPAL (EUROPE) S.A.R.L ET CIE.S.C.A.                                 22-24 BOULEVARD ROYAL,2020-09-11,aaa,aaa,15332.930000000011
+-16.96,credit_card,Going out,aaa,2020-09-11,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,15315.970000000012
+-1.3,dkb,aaa,Tedi Fil. 6366//Neu-Ulm/DE / TEDI GMBH + CO. KG,2020-09-11,aaa,2020-11-07T19:35 Debitk.1 2024-12,15314.670000000013
+-5.74,ksk,Essen gehen,01262 MCDONALDS//MUENSINGEN/DE,2020-09-14,aaa,2020-09-11T22:59 Debitk.1 2021-12,15308.930000000013
+-0.9,ksk,aaa,SumUp .Bichay Bichay//Ulm/DE/0,2020-09-14,aaa,2020-09-11T12:25 Debitk.1 2021-12,15308.030000000013
+2414.52,ksk,Job,EDAG Engineering GmbH,2020-09-15,aaa,Lohn/Gehalt 00080050/202009,17722.550000000014
+-60.64,ksk,Tanken,MTB Tankstelle//Muensingen/DE,2020-09-15,aaa,2020-09-14T08:23 Debitk.1 2021-12,17661.910000000014
+-12.71,credit_card,Essen,aaa,2020-09-15,aaa,REWE Michalik oHGUlm,17649.200000000015
+-12.66,dkb,Handy,E-Plus Service GmbH,2020-09-16,aaa,Gebuehr fuer ALDI TALK Paket M fuer Ihr Prepaid-Konto 4915787422721-6963. Aldi Talk sagt DANKE,17636.540000000015
+-6.86,credit_card,Essen,aaa,2020-09-16,aaa,REWE Janine Kirkamm oHGUlm,17629.680000000015
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-09-17,aaa,179246,17627.610000000015
+-6.13,credit_card,Essen,aaa,2020-09-18,aaa,REWE Sven Thietz oHGNeu-Ulm,17621.480000000014
+-42.0,ksk,Wohnung,OLIVER SCHUMANN,2020-09-18,aaa,Stuff DATUM 18.09.2020. 18.32 UHR 1.TAN 894115,17579.480000000014
+-50.0,ksk,Transaktionen,Michael Rippel,2020-09-19,aaa,bekannt DATUM 19.09.2020. 11.50 UHR 1.TAN 787708,17529.480000000014
+-44.61,credit_card,Essen,aaa,2020-09-19,aaa,REWE Weimper oHGUlm,17484.870000000014
+-25.29,credit_card,Essen,aaa,2020-09-19,aaa,REWE Sven Thietz oHGNeu-Ulm,17459.580000000013
+-0.9,ksk,Bildung,Fernuni Hagen,2020-09-21,aaa,193524140200 DATUM 21.09.2020. 19.53 UHR1.TAN 681489,17458.68000000001
+50.0,dkb,Transaktionen,MICHAEL RIPPEL,2020-09-21,aaa,bekannt,17508.68000000001
+-5.99,credit_card,Essen,aaa,2020-09-22,aaa,SUBWAY 33415ULM,17502.69000000001
+262.06,credit_card,Transaktionen,aaa,2020-09-22,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 22.09.20,17764.75000000001
+-491.28,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-09-24,aaa,PP.6141.PP . EICKHOFF. Ihr Einkauf bei EICKHOFF,17273.470000000012
+-0.35,ksk,Essen,METZGERIMBISS BUNK//ULM . DONAU/DE,2020-09-24,aaa,2020-09-23T11:41 Debitk.1 2021-12,17273.120000000014
+-262.06,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-09-24,aaa,VISA-ABR. 499897XXXXXX9083,17011.060000000012
+-11.77,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-09-24,aaa,2020-09-23T18:47 Debitk.1 2021-12,16999.29000000001
+-3.92,credit_card,aaa,aaa,2020-09-28,aaa,IKEA Dt. NL UlmUlm,16995.370000000014
+-0.35,ksk,Essen,METZGERIMBISS BUNK//ULM . DONAU/DE,2020-09-28,aaa,2020-09-25T11:50 Debitk.1 2021-12,16995.020000000015
+-10.0,credit_card,aaa,aaa,2020-09-28,aaa,IKEA ULMULM,16985.020000000015
+-33.92,ksk,Fahrrad,LUCKY BIKE ULM//Ulm/DE,2020-09-29,aaa,2020-09-28T11:50 Debitk.1 2021-12,16951.100000000017
+-58.48,credit_card,aaa,aaa,2020-09-29,aaa,DECATHLON DEUTSCHLANDULM,16892.620000000017
+100.0,dkb,Transaktionen,Michael Rippel,2020-09-30,aaa,bekannt,16992.620000000017
+0.0,ksk,Zinsen,aaa,2020-09-30,aaa,Abrechnung 30.09.2020 siehe Anlage,16992.620000000017
+-100.0,ksk,Going out,Michael Rippel,2020-09-30,aaa,bekannt,16892.620000000017
+-0.6,ksk,Zinsen,aaa,2020-09-30,aaa,Entgeltabrechnung siehe Anlage,16892.02000000002
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-10-05,aaa,SPENDE 2483116 LAUFNR02850 01.10.2020 bis 31.10.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,16885.35000000002
+-22.78,credit_card,aaa,aaa,2020-10-06,aaa,STEAKHOUSE BURGERGRILLULM,16862.57000000002
+-2.22,credit_card,aaa,aaa,2020-10-06,aaa,SumUp *Allgauer FB GmbMemmingen,16860.35000000002
+-2.4,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-10-06,aaa,PP.6141.PP . DBVERTRIEBG. Ihr Einkauf bei DBVERTRIEBG,16857.95000000002
+-1.37,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-10-06,aaa,PP.6141.PP . DBVERTRIEBG. Ihr Einkauf bei DBVERTRIEBG,16856.58000000002
+-1.2,ksk,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-10-07,aaa,PP.6141.PP . POSTEO. Ihr Einkauf bei POSTEO,16855.38000000002
+-17.22,credit_card,Drogerie,aaa,2020-10-08,aaa,MUELLER GMBH & CO.KGULM,16838.160000000018
+-8.81,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-10-08,aaa,2020-10-07T18:50 Debitk.1 2021-12,16829.350000000017
+-39.99,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-10-11,aaa,PP.4965.PP . HELLOFRESH. Ihr Einkauf bei HELLOFRESH AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0,16789.360000000015
+-23.27,credit_card,Essen,aaa,2020-10-11,aaa,ADIS CAP MarktNeu-Ulm,16766.090000000015
+-10.0,credit_card,aaa,aaa,2020-10-12,aaa,SPARKASSE ULMNEUTORSTR.,16756.090000000015
+-13.01,dkb,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE / CAP MARKT NEU ULM,2020-10-12,aaa,2020-12-09T17:55 Debitk.1 2024-12,16743.080000000016
+0.01,dkb,aaa,TRADE REPUBLIC BANK GMBH,2020-10-13,aaa,Deine PUK ist 24CRMK. Bitte aufbewahren. Keine Ueberweisung an diese IBAN.,16743.090000000015
+-23.15,credit_card,Projekte,aaa,2020-10-13,aaa,BAYWA BAU&GARTENNEU-ULM,16719.940000000013
+-62.67,credit_card,Tanken,aaa,2020-10-13,aaa,ESSO STATION ULMULM,16657.270000000015
+-1.0,dkb,aaa,aaa,2020-10-14,aaa,Rechnung DEUTSCHE KREDITBANK AG Entgelt Giro-Ersatzkarte 2020-2024 20201014-BY111-00091215782,16656.270000000015
+0.01,dkb,aaa,PAYPAL (EUROPE) S.A.R.L ET CIE.S.C.A.,2020-10-15,aaa,PP.4965.PP YYR1010719316545,16656.280000000013
+2414.52,ksk,Job,EDAG Engineering GmbH                                                 Kreuzberger Ring 40,2020-10-16,aaa,Lohn/Gehalt 00080050/202010,19070.800000000014
+-1.35,ksk,aaa,NETTO MARKEN-DISCOU//ST. JOHANN-GAECHIN/DE,2020-10-19,aaa,2020-10-16T12:41 Debitk.1 2021-12,19069.450000000015
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-10-19,aaa,179246,19067.380000000016
+-19.93,ksk,aaa,AUTOHAUS BUEHLE GMBH GIR 79950763//MUENSINGEN/DE,2020-10-19,aaa,2020-10-16T09:44 Debitk.1 2021-12,19047.450000000015
+-20.22,credit_card,Drogerie,aaa,2020-10-21,aaa,MUELLER GMBH & CO.KGULM,19027.230000000014
+-40.05,credit_card,aaa,aaa,2020-10-21,aaa,DECATHLON DEUTSCHLANDULM,18987.180000000015
+-1.8,credit_card,aaa,aaa,2020-10-22,aaa,HSA*Pushpinder SinghUlm,18985.380000000016
+429.07,credit_card,Transaktionen,aaa,2020-10-22,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 22.10.20,19414.450000000015
+-0.59,credit_card,Drogerie,aaa,2020-10-22,aaa,MUELLER GMBH & CO.KGULM,19413.860000000015
+-8.29,credit_card,Essen gehen,aaa,2020-10-23,aaa,MCDONALDS RESTAURANTMERKLINGEN,19405.570000000014
+-3.44,dkb,aaa,SUSA GMBH//ENGSTINGEN/DE / HAVANNA NO 5,2020-10-26,aaa,2020-10-25T00:19 Debitk.1 2024-12,19402.130000000016
+-429.07,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-10-26,aaa,VISA-ABR. 499897XXXXXX9083,18973.060000000016
+-8.68,dkb,aaa,NETTO MARKEN-DISCOU//ST. JOHANN-GAECHIN/DE / NETTO MARKEN-DISCOU.,2020-10-26,aaa,2020-10-24T16:46 Debitk.1 2024-12,18964.380000000016
+-18.14,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-10-27,aaa,2020-10-26T18:15 Debitk.1 2021-12,18946.240000000016
+-0.96,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-10-28,aaa,2020-10-27T17:31 Debitk.1 2021-12,18945.280000000017
+-0.6,dkb,aaa,SumUp .Bichay Bichay J//Ulm/DE/0 / Landesbank Hessen-Thuringen Girozentrale,2020-10-29,aaa,2020-10-27T12:24 Debitk.1 2099-12,18944.68000000002
+-3.22,dkb,aaa,FIVE GUYS GERMANY GMBH GIR 69041674//ULM/DE / FIVE GUYS GERMANY GMBH,2020-10-29,aaa,2020-10-28T18:18 Debitk.1 2024-12,18941.460000000017
+-10.0,credit_card,aaa,aaa,2020-10-29,aaa,SPARDA-BANK BADEN-WUER35091 REC 2 U,18931.460000000017
+100.0,dkb,Transaktionen,Michael Rippel,2020-10-30,aaa,bekannt,19031.460000000017
+-1.35,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-10-30,aaa,PP.4965.PP . DOSCHEIBLE. Ihr Einkauf bei DOSCHEIBLE AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0,19030.11000000002
+-10.64,credit_card,Essen,aaa,2020-10-30,aaa,REWE Janine Kirkamm oHGUlm,19019.47000000002
+-0.6,ksk,Zinsen,aaa,2020-10-30,aaa,Entgeltabrechnung siehe Anlage,19018.87000000002
+-100.0,ksk,Going out,Michael Rippel,2020-10-30,aaa,bekannt,18918.87000000002
+-6.38,credit_card,Tanken,aaa,2020-11-03,aaa,ESSO STAT. SINDELFINGESINDELFINGEN,18912.49000000002
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-11-05,aaa,SPENDE 2483116 LAUFNR02870 01.11.2020 bis 30.11.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,18905.82000000002
+-0.7,credit_card,Essen,aaa,2020-11-05,aaa,Schlemmerservice BunkUlm,18905.12000000002
+-5.16,credit_card,Essen,aaa,2020-11-05,aaa,REWE Sven Thietz oHGNeu-Ulm,18899.96000000002
+-10.69,credit_card,Essen,aaa,2020-11-05,aaa,REWE Weimper oHGUlm,18889.270000000022
+-13.64,credit_card,aaa,aaa,2020-11-06,aaa,STEAKHOUSE BURGERGRILLULM,18875.630000000023
+-24.5,ksk,Bildung,Fernuni Hagen,2020-11-09,aaa,193524140201 DATUM 09.11.2020. 18.51 UHR 1.TAN 219180,18851.130000000023
+-13.11,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-11-10,aaa,2020-11-09T17:27 Debitk.1 2021-12,18838.020000000022
+-11.27,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-11-11,aaa,. DECATHLON. Ihr Einkauf bei DECATHLON AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0800) 1234-111,18826.750000000022
+-61.96,credit_card,aaa,aaa,2020-11-11,aaa,SUEDTANK STATIONULM,18764.790000000023
+-4.47,credit_card,Essen gehen,aaa,2020-11-11,aaa,BURGER KING 14354ULM,18760.32000000002
+-83.37,credit_card,aaa,aaa,2020-11-12,aaa,AMZN Mktp DE*MS7SL0JM4800-279-6620,18676.950000000023
+-1.5,dkb,aaa,STADT ULM,2020-11-13,aaa,505122558449 DATUM 12.11.2020. 22.30 UHR1.TAN 023243,18675.450000000023
+2414.52,ksk,Job,EDAG Engineering GmbH,2020-11-13,aaa,Lohn/Gehalt 00080050/202011,21089.970000000023
+-10.0,dkb,Transaktionen,MICHAEL RIPPEL,2020-11-16,aaa,bekannt DATUM 13.11.2020. 18.16 UHR1.TAN 207515,21079.970000000023
+-10.02,credit_card,Drogerie,aaa,2020-11-17,aaa,MUELLER GMBH & CO.KGNEU-ULM,21069.950000000023
+-2.07,dkb,Versicherungen,ONE Versicherung AG,2020-11-17,aaa,179246,21067.880000000023
+-53.96,dkb,aaa,PAYPAL EUROPE SARL ET CIE SCA,2020-11-17,aaa,PP.4965.PP . EXPERT-ECOM. Ihr Einkauf bei EXPERT-ECOM AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK:,21013.920000000024
+-10.0,ksk,aaa,BRH ROST//SPK. NEU-ULM-ILLERTISSEN/DE,2020-11-19,aaa,2020-11-19T08:00 Debitk.1 2021-12,21003.920000000024
+-99.12,dkb,aaa,OPUS MVZ GMBH//ULM/DE / OPUS MVZ GMBH,2020-11-19,aaa,2020-11-18T16:22 Debitk.1 2024-12,20904.800000000025
+325.64,credit_card,Transaktionen,aaa,2020-11-20,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 20.11.20,21230.440000000024
+-0.62,dkb,aaa,PAYPAL EUROPE SARL ET CIE SCA,2020-11-20,aaa,PP.4965.PP . CHARLYREEN. Ihr Einkauf bei CHARLYREEN AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0,21229.820000000025
+49.97,dkb,aaa,PAYPAL (EUROPE) S.A.R.L ET CIE.S.C.A.,2020-11-20,aaa,. EXPERT-ECOM. IHR EINKAUF BEI EXPERT-ECOM,21279.790000000026
+3.99,dkb,aaa,PAYPAL (EUROPE) S.A.R.L ET CIE.S.C.A.,2020-11-20,aaa,. EXPERT-ECOM. IHR EINKAUF BEI EXPERT-ECOM,21283.780000000028
+-91.61,credit_card,aaa,aaa,2020-11-21,aaa,HFB ECO IKEA 328 ULMULM,21192.170000000027
+-84.45,credit_card,Projekte,aaa,2020-11-21,aaa,Media Markt TV-HiFi-ElektUlm,21107.720000000027
+-0.29,dkb,aaa,Oststadtbäckerei Kreibich//ULM/DE / Oststadtbäckerei Kreibich,2020-11-23,aaa,2020-11-20T12:04 Debitk.1 2024-12,21107.430000000026
+-16.98,dkb,aaa,KFC ULM//ULM/DE/0 / Landesbank Hessen-Thuringen Girozentrale,2020-11-24,aaa,2020-11-21T10:34 Debitk.1 2099-12,21090.450000000026
+-325.64,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-11-24,aaa,VISA-ABR. 499897XXXXXX9083,20764.810000000027
+-59.38,dkb,Kleidung,SPORT-SOHN HANDEL GMBH + CO.KG//ULM/DE / SPORT SOHN DANKT,2020-11-26,aaa,2020-11-25T12:15 Debitk.1 2024-12,20705.430000000026
+-23.99,dkb,Kleidung,SPORT-SOHN HANDEL GMBH + CO.KG//ULM/DE / SPORT SOHN DANKT,2020-11-26,aaa,2020-11-25T12:29 Debitk.1 2024-12,20681.440000000024
+-0.1,dkb,aaa,KLARNA,2020-11-26,aaa,4363374930436 DATUM 25.11.2020. 22.22 UHR1.TAN 539065,20681.340000000026
+-17.81,dkb,Drogerie,MUELLER SAGT DANKE//Ulm/DE / Drogeriemarkt Muller,2020-11-27,aaa,2020-11-26T12:27 Debitk.1 2024-12,20663.530000000024
+-4.95,dkb,aaa,BAEKEREI HAMMA 3036,2020-11-27,aaa,ELV54191486 25.11 12.41 ME1,20658.580000000024
+-100.0,ksk,Going out,Michael Rippel,2020-11-30,aaa,bekannt,20558.580000000024
+-45.85,dkb,Essen,REWE SAGT DANKE. 45655687//Muensingen/DE / REWE Weber oHG,2020-11-30,aaa,2020-11-28T11:00 Debitk.1 2024-12,20512.730000000025
+100.0,dkb,Transaktionen,Michael Rippel,2020-11-30,aaa,bekannt,20612.730000000025
+-0.6,ksk,Zinsen,aaa,2020-11-30,aaa,Entgeltabrechnung siehe Anlage,20612.130000000026
+-0.22,credit_card,Zug,aaa,2020-12-06,aaa,HANDYTICKET DE LOGPAYESCHBORN,20611.910000000025
+-44.98,credit_card,Projekte,aaa,2020-12-06,aaa,BAYWA BAU&GARTENNEU-ULM,20566.930000000026
+-6.67,ksk,Mitgliedsbeiträge,Amnesty International Deutschland e.V.,2020-12-07,aaa,SPENDE 2483116 LAUFNR02886 01.12.2020 bis 31.12.2020 Amnesty dankt Ihnen vielmals fuer Ihre Unterstu,20560.260000000028
+-4.92,credit_card,Going out,aaa,2020-12-08,aaa,HERR BERGERULM,20555.34000000003
+-0.66,credit_card,Zug,aaa,2020-12-08,aaa,HANDYTICKET DE LOGPAYESCHBORN,20554.68000000003
+-40.37,credit_card,Going out,aaa,2020-12-08,aaa,Finkbeiner GmbH & Co. KGNeu-Ulm,20514.31000000003
+-12.18,ksk,aaa,DekaBank Deutsche Girozentrale                                        Mainzer Landstr. 16,2020-12-08,aaa,0102450053 DEKABANK DEPOT DEPOTPREIS 2020 12.18,20502.13000000003
+4.0,ksk,aaa,mhplus Betriebskrankenkasse,2020-12-09,aaa,40.00,20506.13000000003
+-4.99,dkb,aaa,BS PAYONE,2020-12-10,aaa,457492203 242061082 DATUM 12.10.2020. 13.27 UHR1.TAN 961196,20501.14000000003
+-45.15,credit_card,Essen,aaa,2020-12-12,aaa,REWE Weber oHGMuensingen,20455.990000000027
+2416.65,ksk,Job,EDAG Engineering Gmb,2020-12-15,aaa,Lohn/Gehalt 00080050/202012,22872.64000000003
+-4.53,dkb,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE / CAP MARKT NEU ULM,2020-12-15,aaa,2020-12-14T17:45 Debitk.1 2024-12,22868.11000000003
+-26.25,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-12-16,aaa,PP.4965.PP . TRIPLESALES. Ihr Einkauf bei TRIPLESALES AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK:,22841.86000000003
+-70.99,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-12-16,aaa,PP.4965.PP . WAYFAIR. Ihr Einkauf bei WAYFAIR AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0800) 1,22770.870000000028
+-70.92,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-12-16,aaa,PP.4965.PP . INTERSPORT. Ihr Einkauf bei INTERSPORT AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0,22699.95000000003
+-8.82,dkb,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE / CAP MARKT NEU ULM,2020-12-16,aaa,2020-12-15T12:15 Debitk.1 2024-12,22691.13000000003
+-2.07,dkb,Versicherungen,One Versicherung AG. Aeulestrasse 56. Vaduz. Liechtens,2020-12-16,aaa,1792462154094 AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0800) 1234-111,22689.06000000003
+-22.88,dkb,Drogerie,MUELLER SAGT DANKE//Neu-Ulm/DE / Drogeriemarkt Muller,2020-12-18,aaa,2020-12-17T17:46 Debitk.1 2024-12,22666.18000000003
+2.99,dkb,aaa,PAYPAL (EUROPE) S.A.R.L ET CIE.S.C.A.,2020-12-18,aaa,. TRIPLESALES. IHR EINKAUF BEI TRIPLESALES,22669.17000000003
+-100.0,ksk,Going out,Michael Rippel,2020-12-19,aaa,bekannt DATUM 19.12.2020. 14.11 UHR 1.TAN 458419,22569.17000000003
+-42.51,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-12-21,aaa,2020-12-19T16:58 Debitk.1 2021-12,22526.660000000033
+100.0,dkb,Transaktionen,MICHAEL RIPPEL,2020-12-21,aaa,bekannt,22626.660000000033
+-2.0,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-12-21,aaa,PP.4965.PP . ASMUSAMREI. Ihr Einkauf bei ASMUSAMREI AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0,22624.660000000033
+-0.5,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-12-21,aaa,PP.4965.PP . SEBASTIANST. Ihr Einkauf bei SEBASTIANST AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK:,22624.160000000033
+-11.21,ksk,Going out,FINKBEINER GMBH + C//ULM/DE,2020-12-21,aaa,2020-12-19T17:06 Debitk.1 2021-12,22612.950000000033
+-3.1,dkb,Essen,PayPal Europe S.a.r.l. et Cie S.C.A,2020-12-22,aaa,PP.4965.PP . TAKEAWAYCOM. Ihr Einkauf bei TAKEAWAYCOM AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK:,22609.850000000035
+-0.55,dkb,aaa,PayPal Europe S.a.r.l. et Cie S.C.A,2020-12-22,aaa,PP.4965.PP . CHARLYREEN. Ihr Einkauf bei CHARLYREEN AWV-MELDEPFLICHT BEACHTEN HOTLINE BUNDESBANK: (0,22609.300000000036
+59.12,dkb,Versicherungen,Muenchener VEREIN Krankenversicherung a.,2020-12-22,aaa,MUNCHENER VEREIN ABR. 21.12.2020,22668.420000000035
+431.05,credit_card,Transaktionen,aaa,2020-12-22,aaa,Ausgleich Kreditkarte gem. Abrechnung v. 22.12.20,23099.470000000034
+-7.58,ksk,Essen,ADIS ALB-DONAU-INDUSTRIE-S//ULM/DE,2020-12-22,aaa,2020-12-21T13:09 Debitk.1 2021-12,23091.890000000032
+-431.05,dkb,Transaktionen,KREDITKARTENABRECHNUNG,2020-12-28,aaa,VISA-ABR. 499897XXXXXX9083,22660.840000000033
+-6.48,dkb,Drogerie,MUELLER SAGT DANKE//Munsingen/DE / Drogeriemarkt Muller,2020-12-28,aaa,2020-12-24T12:41 Debitk.1 2024-12,22654.360000000033
+-0.31,dkb,Zinsen,aaa,2020-12-30,aaa,Abrechnung 30.12.2020 siehe AnlageAbrechnung 30.12.2020Information zur AbrechnungKontostand am 30.12,22654.050000000032
+100.0,dkb,Transaktionen,Michael Rippel,2020-12-30,aaa,bekannt,22754.050000000032
+-0.6,ksk,Zinsen,aaa,2020-12-30,aaa,Entgeltabrechnung siehe Anlage,22753.450000000033
+-100.0,ksk,Going out,Michael Rippel,2020-12-30,aaa,bekannt,22653.450000000033
+0.0,ksk,Zinsen,aaa,2020-12-30,aaa,Abrechnung 30.12.2020 siehe Anlage,22653.450000000033
