@@ -20,7 +20,7 @@ Before using the dashboard, ensure the following initial data settings:
 - Store the .csv file containing your bank account's spending and income data in the respective year directory.
 - Add a file named "user_settings.json" to store input data such as column translations, data format, start money, line start, bank name, and keywords. Refer to the example file for the desired format of this file.
   
-### regualary use
+### Regualary use
 For regular usage of the dashboard, follow these steps:
 - Update the .csv file from your bank with the latest data.
 - If necessary, go to the input table section of the dashboard to modify entries if the algorithms could not correctly identify all categories. Attention, only the "Client," "Category," and "Description" columns can be changed in this section.
