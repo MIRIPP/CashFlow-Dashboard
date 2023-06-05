@@ -1,7 +1,7 @@
 {
   "banks": [
     {
-      "name": "dkb",
+      "name": "Targobank",
       "line_start": 8,
       "start_money": 10,
       "date_format": "%d.%m.%Y",
@@ -13,7 +13,7 @@
       }
     },
     {
-      "name": "ksk",
+      "name": "Postbank",
       "line_start": 0,
       "start_money": 10,
       "date_format": "%d.%m.%y",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "credit_card",
+      "name": "CreditCard",
       "line_start": 6,
       "start_money": 10,
       "date_format": "%d.%m.%Y",
@@ -39,7 +39,6 @@
   "keywords_income": {
     "Job": [
       "Gehalt",
-      "EDAG Engineering GmbH"
     ]
   },
   "keywords_spending": {
@@ -47,88 +46,21 @@
       "Rewe",
       "ALDI SUED",
       "ALDI GMBH",
-      "BUNK",
-      "CAP Markt",
-      "ADIS ALB-DONAU-INDUSTRIE-S",
-      "E-CENTER",
-      "SUBWAY",
       "Lidl",
       "EDEKA",
-      "TAKEAWAYCOM"
     ],
     "Essen gehen": [
       "Restau",
-      "MCDONALDS",
-      "BURGER KING"
     ],
     "Going out": [
       "Bargeldausz",
-      "Food",
-      "Finkbeiner",
-      "Cinemaxx",
-      "Entertainm",
-      "Prime Video",
-      "Zur Zill",
-      "BRAUEREI GOLD OCHSEN",
-      "Xinedome",
-      "ChocletUlm",
-      "HERR BERGERULM"
-    ],
-    "Job": [
-      "Gehalt",
-      "EDAG Engineering GmbH"
-    ],
-    "Steuer": [
-      "Finanzamt"
-    ],
-    "Kleidung": [
-      "H&M",
-      "C&A",
-      "Clothes",
-      "PEEK & CLOPPENBURG",
-      "ZALANDOSE",
-      "SPORT-SOHN",
-      "Puma",
-      "MARC O'POLO",
-      "Outlet",
-      "SPORT SOHN"
-    ],
-    "Drogerie": [
-      "Drogerie",
-      "MUELLER"
     ],
     "Mitgliedsbeiträge": [
       "Mitglieds",
-      "Jahresbeitrag",
       "e.V."
     ],
-    "Projekte": [
-      "Media Markt",
-      "Saturn",
-      "Electronic",
-      "Reichelt",
-      "Baumarkt",
-      "MUEKRA",
-      "MEDIAMARKT",
-      "Funduino",
-      "BAUHAUS",
-      "BAYWA"
-    ],
     "Versicherungen": [
-      "Alianz",
-      "Versicherung",
-      "Krankenversicherung"
-    ],
-    "Wohnung": [
-      "Stuff"
-    ],
-    "Auto": [
-      "Autowerkstatt",
-      "Bussgeldstelle"
-    ],
-    "Zug": [
-      "HANDYTICKET",
-      "DB AUTOMAT"
+      "Versicherung"
     ],
     "Fahrrad": [
       "Bike"
@@ -140,26 +72,19 @@
       "TANKSTELLE",
       "ESSO"
     ],
-    "Bildung": [
-      "Fernuni Hagen",
-      "HEISEMEDIEN"
-    ],
     "Urlaub": [
       "Hotel",
       "Flug"
     ],
     "Handy": [
       "Mobilfunknummer",
-      "Aldi Talk"
     ],
     "Zinsen": [
       "siehe Anlage"
     ],
-    "Investment": [],
     "Transaktionen": [
       "KREDITKARTENABRECHNUNG",
       "Ausgleich Kreditkarte",
-      "Michael Rippel",
       "Einzahlung"
     ]
   }
