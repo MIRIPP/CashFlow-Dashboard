@@ -1,0 +1,167 @@
+{
+  "banks": [
+    {
+      "name": "dkb",
+      "line_start": 8,
+      "start_money": 10,
+      "date_format": "%d.%m.%Y",
+      "colums_translation": {
+        "Buchungstag": "Date",
+        "Betrag (EUR)": "Amount",
+        "Verwendungszweck": "Purpose",
+        "Auftraggeber / Begünstigter": "Client"
+      }
+    },
+    {
+      "name": "ksk",
+      "line_start": 0,
+      "start_money": 10,
+      "date_format": "%d.%m.%y",
+      "colums_translation": {
+        "Valutadatum": "Date",
+        "Betrag": "Amount",
+        "Verwendungszweck": "Purpose",
+        "Beguenstigter/Zahlungspflichtiger": "Client"
+      }
+    },
+    {
+      "name": "credit_card",
+      "line_start": 6,
+      "start_money": 10,
+      "date_format": "%d.%m.%Y",
+      "colums_translation": {
+        "Belegdatum": "Date",
+        "Betrag (EUR)": "Amount",
+        "Beschreibung": "Purpose"
+      }
+    }
+  ],
+  "keywords_income": {
+    "Job": [
+      "Gehalt",
+      "EDAG Engineering GmbH"
+    ]
+  },
+  "keywords_spending": {
+    "Essen": [
+      "Rewe",
+      "ALDI SUED",
+      "ALDI GMBH",
+      "BUNK",
+      "CAP Markt",
+      "ADIS ALB-DONAU-INDUSTRIE-S",
+      "E-CENTER",
+      "SUBWAY",
+      "Lidl",
+      "EDEKA",
+      "TAKEAWAYCOM"
+    ],
+    "Essen gehen": [
+      "Restau",
+      "MCDONALDS",
+      "BURGER KING"
+    ],
+    "Going out": [
+      "Bargeldausz",
+      "Food",
+      "Finkbeiner",
+      "Cinemaxx",
+      "Entertainm",
+      "Prime Video",
+      "Zur Zill",
+      "BRAUEREI GOLD OCHSEN",
+      "Xinedome",
+      "ChocletUlm",
+      "HERR BERGERULM"
+    ],
+    "Job": [
+      "Gehalt",
+      "EDAG Engineering GmbH"
+    ],
+    "Steuer": [
+      "Finanzamt"
+    ],
+    "Kleidung": [
+      "H&M",
+      "C&A",
+      "Clothes",
+      "PEEK & CLOPPENBURG",
+      "ZALANDOSE",
+      "SPORT-SOHN",
+      "Puma",
+      "MARC O'POLO",
+      "Outlet",
+      "SPORT SOHN"
+    ],
+    "Drogerie": [
+      "Drogerie",
+      "MUELLER"
+    ],
+    "Mitgliedsbeiträge": [
+      "Mitglieds",
+      "Jahresbeitrag",
+      "e.V."
+    ],
+    "Projekte": [
+      "Media Markt",
+      "Saturn",
+      "Electronic",
+      "Reichelt",
+      "Baumarkt",
+      "MUEKRA",
+      "MEDIAMARKT",
+      "Funduino",
+      "BAUHAUS",
+      "BAYWA"
+    ],
+    "Versicherungen": [
+      "Alianz",
+      "Versicherung",
+      "Krankenversicherung"
+    ],
+    "Wohnung": [
+      "Stuff"
+    ],
+    "Auto": [
+      "Autowerkstatt",
+      "Bussgeldstelle"
+    ],
+    "Zug": [
+      "HANDYTICKET",
+      "DB AUTOMAT"
+    ],
+    "Fahrrad": [
+      "Bike"
+    ],
+    "Tanken": [
+      "Aral",
+      "MTB",
+      "Agip",
+      "TANKSTELLE",
+      "ESSO"
+    ],
+    "Bildung": [
+      "Fernuni Hagen",
+      "HEISEMEDIEN"
+    ],
+    "Urlaub": [
+      "Hotel",
+      "Flug"
+    ],
+    "Handy": [
+      "Mobilfunknummer",
+      "Aldi Talk"
+    ],
+    "Zinsen": [
+      "siehe Anlage"
+    ],
+    "Investment": [],
+    "Transaktionen": [
+      "KREDITKARTENABRECHNUNG",
+      "Ausgleich Kreditkarte",
+      "Michael Rippel",
+      "Einzahlung"
+    ]
+  }
+}
+
