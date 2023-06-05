@@ -38,7 +38,7 @@
   ],
   "keywords_income": {
     "Job": [
-      "Gehalt",
+      "Gehalt"
     ]
   },
   "keywords_spending": {
@@ -47,13 +47,13 @@
       "ALDI SUED",
       "ALDI GMBH",
       "Lidl",
-      "EDEKA",
+      "EDEKA"
     ],
     "Essen gehen": [
       "Restau",
     ],
     "Going out": [
-      "Bargeldausz",
+      "Bargeldausz"
     ],
     "Mitgliedsbeiträge": [
       "Mitglieds",
@@ -77,7 +77,7 @@
       "Flug"
     ],
     "Handy": [
-      "Mobilfunknummer",
+      "Mobilfunknummer"
     ],
     "Zinsen": [
       "siehe Anlage"
