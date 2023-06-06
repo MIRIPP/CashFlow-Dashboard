@@ -10,7 +10,7 @@ The dashboard's interface allows for easy customization and interaction. You can
 
 ### Installation
 To install and set up the dashboard, follow these steps:
-- Clone the repository by running the following command: git clone <repository-url>
+- Clone the repository by running the following command: ``` git clone https://github.com/MIRIPP/CashFlow-Dashboard.git ```
 - install Python 3.9 on your machine
 - Install the necessary libraries by running the following command: pip install dash, panda
   
