@@ -1,1 +1,33 @@
 ﻿Date,Bank,Amount,Purpose,Client,Category,Description
+2020-01-11,CreditCard,-61.96,Media Markt,aaa,Essen,aaa
+2020-01-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-01-26,Targobank,-260.24,KREDITKARTENABRECHNUNG,KREDITKARTENABRECHNUNG,Transaktionen,aaa
+2020-02-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-02-17,CreditCard,-10.02,Media Markt,aaa,Essen,aaa
+2020-02-26,Targobank,-148.5,E-Plus,E-Plus,Handy,aaa
+2020-03-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-03-20,CreditCard,325.64,Ausgleich Kreditkarte,aaa,Transaktionen,aaa
+2020-04-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-04-21,CreditCard,-91.61,IKEA,aaa,Essen,aaa
+2020-04-29,Targobank,-7.0,PayPal A,PayPal,Shopping,aaa
+2020-05-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-05-21,CreditCard,-84.45,Media Markt,aaa,Essen,aaa
+2020-06-02,CreditCard,-19.21,REWE,aaa,Essen,aaa
+2020-06-03,Targobank,-427.0,Wohnung,Wohnung,Wohnung,aaa
+2020-06-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-07-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-08-02,CreditCard,-7.26,REWE,aaa,Essen,aaa
+2020-08-06,Targobank,-82.98,PayPal,PayPal,Shopping,aaa
+2020-08-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-09-10,CreditCard,-100.0,SPARKASSE.,aaa,Going out,aaa
+2020-09-11,Targobank,-9.99,E-Plus,E-Plus,Handy,aaa
+2020-09-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-10-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-10-12,CreditCard,-45.15,REWE,aaa,Essen,aaa
+2020-10-14,Targobank,-4.99,PayPal,PayPal,Shopping,aaa
+2020-11-11,CreditCard,-83.37,AMZN,aaa,Essen,aaa
+2020-11-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-11-18,Targobank,-2.07,Versicherung,Versicherung,Versicherungen,aaa
+2020-12-12,Postbank,1000.0,Lohn/Gehalt 0,Lohn/Gehalt 0 ,Job,aaa
+2020-12-20,Targobank,-12.99,E-Plus,E-Plus,Handy,aaa
+2020-12-22,CreditCard,431.05,Ausgleich Kreditkarte,aaa,Transaktionen,aaa

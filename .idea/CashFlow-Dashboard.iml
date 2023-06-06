@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/SourceFile/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SourceFile/data/2020" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SourceFile/data/2021" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SourceFile/pages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SourceFile" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

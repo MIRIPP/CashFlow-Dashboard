@@ -42,18 +42,25 @@
     ]
   },
   "keywords_spending": {
+    "Wohnung": [
+      "Wohnung"
+    ],
     "Essen": [
-      "Rewe",
+      "REWE",
       "ALDI SUED",
       "ALDI GMBH",
       "Lidl",
+      "AMZN",
+      "IKEA",
+      "Media Markt",
       "EDEKA"
     ],
     "Essen gehen": [
-      "Restau",
+      "Restau"
     ],
     "Going out": [
-      "Bargeldausz"
+      "Bargeldausz",
+      "SPARKASSE"
     ],
     "Mitgliedsbeiträge": [
       "Mitglieds",
@@ -62,8 +69,8 @@
     "Versicherungen": [
       "Versicherung"
     ],
-    "Fahrrad": [
-      "Bike"
+    "Shopping": [
+      "PayPal"
     ],
     "Tanken": [
       "Aral",
@@ -77,7 +84,8 @@
       "Flug"
     ],
     "Handy": [
-      "Mobilfunknummer"
+      "Mobilfunknummer",
+      "E-Plus"
     ],
     "Zinsen": [
       "siehe Anlage"

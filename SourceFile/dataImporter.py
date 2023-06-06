@@ -53,7 +53,7 @@ class DataImporter:
 
         # 3. Refactor dataframe
         df = self.merge_source_data(df_banks_raw)
-        df = self.clean_dataframe(df)
+        # df = self.clean_dataframe(df)
         df = self.set_auto_category(df)
 
         # 4. save given data
