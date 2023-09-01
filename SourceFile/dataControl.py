@@ -71,7 +71,7 @@ def update_income_spending(data, category_income, category_spending):
             'paper_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
             'plot_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
             'barmode': 'relative',
-            "legend": {"orientation": "h", "yanchor": "top", "y": 1.0, "xanchor": "center", "x": 0.5}
+            "legend": {"orientation": "h", "yanchor": "top", "y": 1.05, "xanchor": "center", "x": 0.5}
         }
     }
     # Return the updated graph figure
@@ -126,10 +126,10 @@ def update_bank_balance(data):
 
         'data': line_traces,
         'layout': {
-            'margin': {'t': 30, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
+            'margin': {'t': 10, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
             'paper_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
             'plot_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
-            "legend": {"orientation": "h", "yanchor": "top", "y": 1.0, "xanchor": "center", "x": 0.5}
+            "legend": {"orientation": "h", "yanchor": "top", "y": 1.05, "xanchor": "center", "x": 0.5}
         }
     }
     # Return the updated graph figure

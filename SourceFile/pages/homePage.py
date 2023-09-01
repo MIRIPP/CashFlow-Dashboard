@@ -8,29 +8,30 @@ card_spendingByCategory = dbc.Card(
         dbc.CardBody([
             dbc.Row([
                 dbc.Col([
-                    html.H6("Month", className="card-subtitle"),
+                    # html.H6("Month", className="card-subtitle"),
                     dcc.RadioItems(
                         id="month-select",
                         options=[
-                            {'label': 'Jan.  ', 'value': 0},
-                            {'label': 'Feb.  ', 'value': 1},
-                            {'label': 'Mar.  ', 'value': 2},
-                            {'label': 'Apr.  ', 'value': 3},
+                            {'label': 'Jan', 'value': 0},
+                            {'label': 'Feb', 'value': 1},
+                            {'label': 'Mar', 'value': 2},
+                            {'label': 'Apr', 'value': 3},
                             {'label': 'May', 'value': 4},
                             {'label': 'Jun', 'value': 5},
                             {'label': 'Jul', 'value': 6},
                             {'label': 'Aug', 'value': 7},
                             {'label': 'Sep', 'value': 8},
-                            {'label': 'Ocz', 'value': 9},
+                            {'label': 'Oct', 'value': 9},
                             {'label': 'Nov', 'value': 10},
                             {'label': 'Dec', 'value': 11},
                         ],
-                        inline=True,
                         value=0,
-                        style={"width": "50px"},
+                        labelStyle={'display': 'inline-block'},
+                        inputStyle={'margin-right': '1px', 'margin-left': '10px'}
                     )
-                ], width=1, className="pe-1 border-end border-dark border-1"),
-
+                ]),
+            ]),
+            dbc.Row([
                 dbc.Col([
                     dcc.Graph(id='graph-spending-category'),
                 ]),
@@ -65,8 +66,7 @@ card_incomeSpending = dbc.Card(
                         value=list(keywords_income.keys()),
                         multi=True,
                     ),
-                ],
-                    width=5)
+                ], width=5)
             ])
         ),
     ],

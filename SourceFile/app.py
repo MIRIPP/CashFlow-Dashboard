@@ -18,18 +18,20 @@ import dataControl as dC
 # tutorial examples: https://dash-example-index.herokuapp.com/
 
 # Todo:
-# make to code bulled proved
-# modify keywords online
+# make code bulled proved
+# auto generated user_settings file
 # add more charts
+# train AI to find the categories on a better level
 
+
+# 0. Create data structure
 directory = 'data'
 directories = [name for name in os.listdir(directory) if os.path.isdir(os.path.join(directory, name))]
-
 dict_year_df = {}
 keywords_income = {}
 keywords_spending = {}
 
-# 2. create Dash App
+# 1. create Dash App
 app = dash.Dash(__name__,
                 external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP],  # using BOOTSTRAP layout
                 use_pages=True,
@@ -37,7 +39,7 @@ app = dash.Dash(__name__,
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
 
-# 1. Import source data
+# 2. Import source data
 for year in directories:
     if year.isdigit():
         data = {}
@@ -54,6 +56,7 @@ list_years = list(dict_year_df.keys())
 
 # app.config.suppress_callback_exceptions = True
 
+# 3. Create Statusbar
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col(
@@ -86,7 +89,7 @@ app.layout = dbc.Container([
 ], fluid=True)
 
 
-# 3. Callback Homepage
+# 4. Callback Homepage when year changed
 @app.callback(
     [Output('graph-saving', 'figure'),
      Output('graph-bank-balance', 'figure'),
@@ -132,7 +135,7 @@ def update_card(selected_year):
     return cards
 
 
-# 4. Callback Input table
+# 5. Callback Input table
 @app.callback(
     [Output('data-table', 'data'),
      Output('add-row-button', 'n_clicks')],

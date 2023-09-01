@@ -11,15 +11,17 @@ The dashboard's interface allows for easy customization and interaction. You can
 ### Installation and run an example file
 To install and set up the dashboard, follow these steps:
 - Clone the repository: ``` git clone https://github.com/MIRIPP/CashFlow-Dashboard.git ```
-- install Python 3.9 on your machine. ``` python --versiont ```
+- install Python 3.9 on your machine. ``` python --version ```
 - Install the necessary libraries: ``` pip install dash  panda dash_bootstrap_components```
 - Run Application
   
 ### Set your personal source Data
 Once you have run the dashboard with the demo data, you can add your own personal .csv files from different banks that contain your spending and income data. Follow these steps:
-- Create a directory (named by year) for each year you can provide source data: e.g 2022 ``` mkdir   .\SourceFile\data\2022```
-- Add a file named "user_settings.json" to store your user-spesific input data.   ``` cp .\SourceFile\data\2020\user_settings.json .\SourceFile\data\2022\```
-  (You can copy the "user_settings.json" file from the existing "2020" directory to the new year's directory)
+- Create a directory (named by year) for each year you can provide source data: e.g 2022
+  ``` mkdir   .\SourceFile\data\2022```
+- Add a file named "user_settings.json" to store your user-spesific input data.  
+  (check out the existing "user_settings.json")
+``` cp .\SourceFile\data\2020\user_settings.json .\SourceFile\data\2022\ ```
 - Store the .csv file containing your bank account's spending and income data in the respective year directory.
 
   
