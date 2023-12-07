@@ -1,12 +1,10 @@
-
-
 "Von:";"01.01.2021";
 "Bis:";"23.05.2021";
 
 "Freitextsuche (im Verwendungszweck und Empf�ngerdaten):";"";"im Verwendungszweck und Empf�ngerdaten";
 "Betrag von:";"";"bis:";"";
 
-"Buchungstag";"Wertstellung";"Buchungstext";"Auftraggeber / Begünstigter";"Verwendungszweck";"Kontonummer";"BLZ";"Betrag (EUR)";"Gl�ubiger-ID";"Mandatsreferenz";"Kundenreferenz";
+"Buchungstag";"Wertstellung";"Buchungstext";"Auftraggeber / Beguenstigter";"Verwendungszweck";"Kontonummer";"BLZ";"Betrag (EUR)";"Gl�ubiger-ID";"Mandatsreferenz";"Kundenreferenz";
 "20.12.2021";"20.12.2021";" ";" ";"E-Plus";" ";" ";"-120,99";"     ";"                          ";"";
 "18.11.2021";"18.11.2021";" ";" ";"Versicherung";" ";" ";"-20,07";"    ";"                 ";"";
 "14.10.2021";"14.10.2021";" ";" ";"PayPal ";" ";" ";"-40,99";"                        ";"          ";"";

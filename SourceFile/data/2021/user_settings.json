@@ -3,36 +3,25 @@
     {
       "name": "Targobank",
       "line_start": 8,
-      "start_money": 10,
+      "start_money": 10000,
       "date_format": "%d.%m.%Y",
       "colums_translation": {
-        "Buchungstag": "Date",
-        "Betrag (EUR)": "Amount",
-        "Verwendungszweck": "Purpose",
-        "Auftraggeber / Begünstigter": "Client"
+        "Date" : "Buchungstag",
+        "Amount" : "Betrag (EUR)",
+        "Purpose": "Verwendungszweck",
+        "Client" : "Auftraggeber / Beguenstigter"
       }
     },
     {
       "name": "Postbank",
       "line_start": 0,
-      "start_money": 10,
+      "start_money": 10000,
       "date_format": "%d.%m.%y",
       "colums_translation": {
-        "Valutadatum": "Date",
-        "Betrag": "Amount",
-        "Verwendungszweck": "Purpose",
-        "Beguenstigter/Zahlungspflichtiger": "Client"
-      }
-    },
-    {
-      "name": "CreditCard",
-      "line_start": 6,
-      "start_money": 10,
-      "date_format": "%d.%m.%Y",
-      "colums_translation": {
-        "Belegdatum": "Date",
-        "Betrag (EUR)": "Amount",
-        "Beschreibung": "Purpose"
+         "Date" : "Valutadatum" ,
+         "Amount" : "Betrag" ,
+         "Purpose": "Verwendungszweck",
+         "Client" : "Beguenstigter/Zahlungspflichtiger"
       }
     }
   ],
