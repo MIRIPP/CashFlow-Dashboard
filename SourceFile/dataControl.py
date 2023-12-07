@@ -219,12 +219,13 @@ def make_overview_card(title, start, end):
              [
                 html.H4([html.I(className="bi bi-bank me-2"), title], className="text-nowrap"),
                 html.H6(f"{int(start)} €", style={'color': 'white'}),
-                html.H6(f"{int(end)} €", style={'color': 'white', 'font-weight': 'bold'}),
                 html.Div(
                     [
                         html.I(f"{int(value)} €", className=str_class_name)
                     ]
                 ),
+                 html.Hr(style={'margin-top': '5px', 'margin-bottom': '5px'}),
+                html.H6(f"{int(end)} €", style={'color': 'white', 'font-weight': 'bold'}),
              ],
          ),
         style={'background-color': 'rgba(2,50,51,1)', 'border-color': 'white'},

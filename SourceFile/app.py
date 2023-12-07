@@ -25,7 +25,7 @@ import dataControl as dC
 
 
 # 0. Create data structure
-directory = 'data_example'
+directory = 'data'
 directories = [name for name in os.listdir(directory) if os.path.isdir(os.path.join(directory, name))]
 dict_year_df = {}
 keywords_income = {}
