@@ -15,7 +15,7 @@ def update_saving(data):
                 'y': x,
                 'type': 'bar',
                 'textposition': 'auto',  # Show text on bars
-                'marker': {'color': ['red' if val < 0 else 'green' for val in x],
+                'marker': {'color': ['rgba(26,26,26,255)' if val < 0 else 'rgba(191,191,191,255)' for val in x],
                            'line': {'color': 'black', 'width': 1}}
             }
         ],
@@ -54,7 +54,7 @@ def update_income_spending(data, category_income, category_spending):
                 'y': y1,
                 'name': 'Income',
                 'type': 'bar',
-                'marker': {'color': 'green',
+                'marker': {'color': 'rgba(26,26,26,255)',
                            'line': {'color': 'black', 'width': 1}}
             },
             {
@@ -62,7 +62,7 @@ def update_income_spending(data, category_income, category_spending):
                 'y': y2,
                 'name': 'Spending',
                 'type': 'bar',
-                'marker': {'color': 'red',
+                'marker': {'color': 'rgba(191,191,191,255)',
                            'line': {'color': 'black', 'width': 1}}
             }
         ],
@@ -93,7 +93,7 @@ def update_spending_category(data, month):
                 'orientation': 'h',
                 'name': 'Avarrage',
                 'type': 'bar',
-                'marker': dict(color='rgba(360, 74, 48, 0.6)'),
+                'marker': dict(color='rgba(191,191,191,255)'),
             },
             {
                 'x': y2,
@@ -101,7 +101,7 @@ def update_spending_category(data, month):
                 'orientation': 'h',
                 'name': 'selected Month',
                 'type': 'bar',
-                'marker': dict(color='red'),
+                'marker': dict(color='rgba(26,26,26,255)'),
             }
         ],
         'layout': {
@@ -146,14 +146,26 @@ def update_pie_spending(data):
                 'labels': y,
                 'values': x,
                 'type': 'pie',
-                'textinfo': 'label+text',
-                'texttemplate': '%{label}: %{value:.2f} €',
+                'textinfo': 'none',
+                'hoverinfo': 'text',
+                'text': [f"{label}: {value:.2f} €" for label, value in zip(y, x)],
+                #'showlegend': False,
+                # 'marker': {
+                #     'colors': ['#808080','#696969','#A9A9A9','#7B7B7B','#C0C0C0','#555555','#999999','#4C4C4C',
+                #                '#D3D3D3','#888888','#B0B0B0','#333333', '#767676', '#EAEAEA','#666666']
+                # }
             }
         ],
         'layout': {
-            'margin': {'t': 30, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
+           'margin': {'t': 30, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
             'paper_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
             'plot_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
+            'legend': {
+                'orientation': 'h',
+                'x': -0.2,  # Position the legend outside the pie chart
+                'y': 0.5,
+                'xanchor': 'center',
+            }
         }
     }
 
@@ -170,22 +182,33 @@ def update_pie_income(data):
                 'labels': y,
                 'values': x,
                 'type': 'pie',
-                'textinfo': 'label+text',
-                'texttemplate': '%{label}: %{value:.2f} €',
+                'textinfo': 'none',
+                'hoverinfo': 'text',
+                'text': [f"{label}: {value:.2f} €" for label, value in zip(y, x)],
+                #'showlegend': False,
+                # 'marker': {
+                #     'colors': ['#808080','#696969','#A9A9A9','#7B7B7B','#C0C0C0','#555555','#999999','#4C4C4C',
+                #                '#D3D3D3','#888888','#B0B0B0','#333333', '#767676', '#EAEAEA','#666666']
+                # }
             }
         ],
         'layout': {
-            'margin': {'t': 30, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
+           'margin': {'t': 30, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
             'paper_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
             'plot_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
+            'legend': {
+                'orientation': 'h',
+                'x': -0.2,  # Position the legend outside the pie chart
+                'y': 0.5,
+                'xanchor': 'center',
+            }
         }
     }
-
     return fig
 
 
 def make_overview_card(title, start, end):
-    value = ((end - start) / abs(start)) * 100
+    value = end - start
     if value < 0:
         str_class_name = "bi bi-caret-down-fill text-danger"
     else:
@@ -193,17 +216,19 @@ def make_overview_card(title, start, end):
 
     return dbc.Card(
         dbc.CardBody(
-            [
+             [
                 html.H4([html.I(className="bi bi-bank me-2"), title], className="text-nowrap"),
-                html.H6(f"{start:.2f} € --> {end:.2f} €"),
+                html.H6(f"{int(start)} €", style={'color': 'white'}),
+                html.H6(f"{int(end)} €", style={'color': 'white', 'font-weight': 'bold'}),
                 html.Div(
                     [
-                        html.I(f"{value:.2f} %", className=str_class_name),
-                        " vs LY",
+                        html.I(f"{int(value)} €", className=str_class_name)
                     ]
                 ),
-            ], className="border-start border-success border-5"
-        ),
+             ],
+         ),
+        style={'background-color': 'rgba(2,50,51,1)', 'border-color': 'white'},
+        inverse=True,
         className="text-center m-2",
     )
 

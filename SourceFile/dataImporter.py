@@ -2,6 +2,7 @@
 import pandas as pd
 import pathlib
 
+
 pd.options.mode.chained_assignment = None  # exclude panda warning message
 PATH = pathlib.Path(__file__).parent
 
@@ -147,15 +148,23 @@ class DataImporter:
         """
         # 1. read data from excel
         new_source_df = pd.read_csv(self.__data_path.joinpath(bank_name + ".csv"), delimiter=";",
-                                    encoding="ISO-8859-1", skiprows=first_data_row)
+                                    encoding="ISO-8859-1", skiprows=first_data_row-2)
 
         # 2. create new Category for column Bank, Category and Description
         new_source_df.insert(1, "Bank", bank_name)
         new_source_df.insert(2, "Category", "aaa")
         new_source_df.insert(3, "Description", "aaa")
 
+        # print(new_source_df)
+
         # 3. Rename column in standard format
-        new_source_df = new_source_df.rename(columns=dict_old_new_col)
+        for old_column_name in new_source_df.columns:
+            new_column_name = old_column_name.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue')
+            new_source_df.rename(columns={old_column_name: new_column_name}, inplace=True)
+        swapped_dict_old_new_col = {v: k for k, v in dict_old_new_col.items()}
+        new_source_df = new_source_df.rename(columns=swapped_dict_old_new_col)
+
+        # print(new_source_df)
 
         # 4. add colum if missing
         if 'Client' not in new_source_df:

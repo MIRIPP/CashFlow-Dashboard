@@ -59,32 +59,33 @@ list_years = list(dict_year_df.keys())
 # 3. Create Statusbar
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(
-            html.H4("Budget Dashboard", className='text-left text-white my-3'),
-            width=4),
-        dbc.Col(
-            dbc.Nav([
-                dbc.NavLink("Homepage", href="/", className='text-centre text-white'),
-                dbc.NavLink("InputTable", href="/inputtable", className='text-centre text-white'),
-            ], horizontal=True,
-                className='d-flex justify-content-center my-3'),
-            width=4),
-        dbc.Col(
-            dcc.Dropdown(
-                id="year-select",
-                options=list_years,
-                value=list_years[-1],
-                className='text-left my-3',
-
+        dbc.Col([
+            dbc.Row(
+                html.H4("Budget Dashboard", className='text-left text-white my-3'),
             ),
-            width={'size': 2, 'offset': 2})
+            dbc.Row(
+                    dbc.NavLink("Homepage", href="/", className='text-center text-white my-1 mx-auto'),
+            ),
+            dbc.Row(
+                    dbc.NavLink("InputTable", href="/inputtable", className='text-center text-white my-1 mx-auto'),
+            ),
+            dbc.Row(
+                dcc.Dropdown(
+                    id="year-select",
+                    options=list_years,
+                    value=list_years[-1],
+                    className='text-left my-3',
+
+                ),
+            ),
+            dbc.Row(id='card-row', className="my-2")
+        ],
+        width=2,
+        style={'background-color': 'rgba(2,50,51,255)'}
+        ),
+        dbc.Col(dash.page_container, width=10, style={'background-color': 'rgba(237,237,237,255)'}),
     ],
-        className="bg-primary"
-    ),
-
-    dbc.Row(
-        dash.page_container
-
+    # className="bg-primary"
     ),
 ], fluid=True)
 
@@ -131,7 +132,7 @@ def update_card(selected_year):
     df_data = dict_year_df[selected_year]
     cards = []
     for name, start_money in df_data.start_money.items():
-        cards.append(dbc.Col(dC.make_overview_card(name, start_money, df_data.end_money[name])))
+        cards.append(dbc.Row(dC.make_overview_card(name, start_money, df_data.end_money[name])))
     return cards
 
 
