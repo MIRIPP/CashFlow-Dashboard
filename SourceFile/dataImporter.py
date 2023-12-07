@@ -8,10 +8,10 @@ PATH = pathlib.Path(__file__).parent
 
 
 class DataImporter:
-    def __init__(self, year, banks_raw_data, keywords_income, keywords_spending):
+    def __init__(self, source_file, year, banks_raw_data, keywords_income, keywords_spending):
         # private
         self.__year = year
-        self.__data_path = PATH.joinpath("data/" + year).resolve()
+        self.__data_path = PATH.joinpath( source_file + '/' + year).resolve()
 
         # public
         self.data_path_source_file = self.__data_path.joinpath("source_file.csv")

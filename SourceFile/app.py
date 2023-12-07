@@ -25,7 +25,7 @@ import dataControl as dC
 
 
 # 0. Create data structure
-directory = 'data'
+directory = 'data_example'
 directories = [name for name in os.listdir(directory) if os.path.isdir(os.path.join(directory, name))]
 dict_year_df = {}
 keywords_income = {}
@@ -43,14 +43,14 @@ app = dash.Dash(__name__,
 for year in directories:
     if year.isdigit():
         data = {}
-        with open('data/' + year + '/user_settings.json') as file:
+        with open(directory + '/' + year + '/user_settings.json') as file:
             json_data = json.load(file)
 
         banks = json_data['banks']
         keywords_income = json_data['keywords_income']
         keywords_spending = json_data['keywords_spending']
 
-        dict_year_df[year] = dI.DataImporter(year, banks, keywords_income, keywords_spending)
+        dict_year_df[year] = dI.DataImporter(directory, year, banks, keywords_income, keywords_spending)
 
 list_years = list(dict_year_df.keys())
 
