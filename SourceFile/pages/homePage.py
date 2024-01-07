@@ -162,15 +162,17 @@ layout = html.Div([
     ),
     dbc.Row(
         [
-            dbc.Col(card_bankBalance, width=5),
-            dbc.Col(card_incomeSpending, width=7),
+            dbc.Col(card_bankBalance, width=6),
+            dbc.Col(card_pie_chart_spending, width=6),
+
         ],
         style={"margin-bottom": "20px"},  # distance to next cards
     ),
     dbc.Row(
         [
-            dbc.Col(card_pie_chart_income, width=6),
-            dbc.Col(card_pie_chart_spending, width=6),
+            dbc.Col(card_incomeSpending, width=9),
+            dbc.Col(card_pie_chart_income, width=3),
+
         ]
     )
 ], style={"padding": "20px"}

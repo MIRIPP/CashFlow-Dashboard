@@ -224,7 +224,7 @@ def make_overview_card(title, start, end):
                         html.I(f"{int(value)} €", className=str_class_name)
                     ]
                 ),
-                 html.Hr(style={'margin-top': '5px', 'margin-bottom': '5px'}),
+                html.Hr(style={'margin-top': '5px', 'margin-bottom': '5px'}),
                 html.H6(f"{int(end)} €", style={'color': 'white', 'font-weight': 'bold'}),
              ],
          ),

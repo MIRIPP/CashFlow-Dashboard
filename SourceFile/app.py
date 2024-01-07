@@ -25,7 +25,7 @@ import dataControl as dC
 
 
 # 0. Create data structure
-directory = 'data'
+directory = 'data_personal'
 directories = [name for name in os.listdir(directory) if os.path.isdir(os.path.join(directory, name))]
 dict_year_df = {}
 keywords_income = {}
@@ -38,6 +38,7 @@ app = dash.Dash(__name__,
                 meta_tags=[{'name': 'viewport',
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
+app.config.suppress_callback_exceptions = True
 
 # 2. Import source data
 for year in directories:
@@ -53,8 +54,6 @@ for year in directories:
         dict_year_df[year] = dI.DataImporter(directory, year, banks, keywords_income, keywords_spending)
 
 list_years = list(dict_year_df.keys())
-
-# app.config.suppress_callback_exceptions = True
 
 # 3. Create Statusbar
 app.layout = dbc.Container([
@@ -197,4 +196,4 @@ def update_card(selected_year):
 
 # 5. Run the server
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
