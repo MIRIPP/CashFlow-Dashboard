@@ -67,6 +67,35 @@ card_incomeSpending = dbc.Card(
     # color="light",  # https://bootswatch.com/default/ for more card colors,
 )
 
+card_incomeSpending_interactive = dbc.Card(
+    [
+        dbc.CardBody([
+            html.H4("Income / Spending by Category", style={'color': 'black', 'font-weight': 'bold'}),
+            dbc.Row([
+                dbc.Col([
+                    dcc.Graph(id='graph-income-spending-interactive')
+                ]),
+                dbc.Col([
+                    html.P("Select Category Spending", className="card-subtitle"),
+                    dcc.Dropdown(
+                        id="select-category-income",
+                        options=[{"label": i, "value": i} for i in keywords_spending],
+                        value=list(keywords_spending.keys()),
+                        multi=True,
+                    ),
+                ], width=5)
+            ])
+        ]),
+    ],
+    style={
+        'background-color': 'rgba(237,237,237,1)',
+        'border-color': 'rgba(2,50,51,1)'
+    },
+    # Alternative style:
+    # className="shadow"
+    # color="light",  # https://bootswatch.com/default/ for more card colors,
+)
+
 card_saving = dbc.Card(
     [
         dbc.CardBody([
@@ -159,10 +188,8 @@ layout = html.Div([
     ),
     dbc.Row(
         [
-            dbc.Col(card_incomeSpending, width=8),
-            dbc.Col(card_saving, width=4),
-            # dbc.Col(card_pie_chart_income, width=3),
-
+            dbc.Col(card_saving, width=5),
+            dbc.Col(card_incomeSpending, width=7),
         ],
         style={"margin-bottom": "20px"},  # distance to next cards
     ),
@@ -170,7 +197,14 @@ layout = html.Div([
         [
             dbc.Col(card_bankBalance, width=6),
             dbc.Col(card_pie_chart_spending, width=6),
-        ]
+        ],
+        style={"margin-bottom": "20px"},  # distance to next cards
+    ),
+    dbc.Row(
+        [
+            dbc.Col(card_incomeSpending_interactive, width=12),
+        ],
+        style={"margin-bottom": "20px"},  # distance to next cards
     ),
     dbc.Row(
         [

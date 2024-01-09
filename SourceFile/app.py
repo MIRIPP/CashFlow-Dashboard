@@ -63,10 +63,10 @@ app.layout = dbc.Container([
                 html.H4("Budget Dashboard", className='text-left text-white my-3'),
             ),
             dbc.Row(
-                    dbc.NavLink("Homepage", href="/", className='text-center text-white my-1 mx-auto'),
+                dbc.NavLink("Homepage", href="/", className='text-center text-white my-1 mx-auto'),
             ),
             dbc.Row(
-                    dbc.NavLink("InputTable", href="/inputtable", className='text-center text-white my-1 mx-auto'),
+                dbc.NavLink("InputTable", href="/inputtable", className='text-center text-white my-1 mx-auto'),
             ),
             dbc.Row(
                 dcc.Dropdown(
@@ -95,7 +95,7 @@ app.layout = dbc.Container([
      Output('graph-bank-balance', 'figure'),
      Output('graph-pie-spending', 'figure'),
      Output('graph-pie-income', 'figure'),
-     Output('graph-income-spending', 'figure')],
+     Output('graph-income-spending', 'figure'),],
     Input('year-select', 'value'),
 )
 def update_graph(selected_year):
@@ -112,6 +112,14 @@ def update_graph(month, year_selected):
     df_data = dict_year_df[year_selected]
     return dC.update_spending_category(df_data, month)
 
+@app.callback(
+    Output('graph-income-spending-interactive', 'figure'),
+    [Input('select-category-income', 'value'),
+     Input('year-select', 'value')],
+)
+def update_graph(category_selected, year_selected):
+    df_data = dict_year_df[year_selected]
+    return dC.update_income_spending_interactive(df_data, category_selected)
 
 @app.callback(
     Output('card-overview-category', 'children'),

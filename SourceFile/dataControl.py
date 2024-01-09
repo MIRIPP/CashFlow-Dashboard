@@ -31,11 +31,11 @@ def update_saving(data):
     return fig
 
 
-def update_income_spending(data):
+def update_income_spending_interactive(data, category_filtered):
 
     fig_data = []
 
-    for category in data.categories:
+    for category in category_filtered:
         category_data = data.gr_combined_by_month_and_category[data.gr_combined_by_month_and_category['Category'] == category]
 
         y = category_data['Amount'].tolist()
@@ -62,6 +62,50 @@ def update_income_spending(data):
         }
     }
 
+    return fig
+
+def update_income_spending(data):
+
+    # group dataframe for month
+    gr_income_filtered_by_moth = data.df_income.groupby(pd.Grouper(key="Date", freq="M")).sum()
+    gr_spending_filtered_by_moth = data.df_spending.groupby(pd.Grouper(key="Date", freq="M")).sum()
+
+    y1 = gr_income_filtered_by_moth["Amount"].tolist()
+    x1_ts = gr_income_filtered_by_moth.index.tolist()
+    x1 = [ts.strftime('%b') for ts in x1_ts]
+
+    y2 = gr_spending_filtered_by_moth["Amount"].tolist()
+    x2_ts = gr_spending_filtered_by_moth.index.tolist()  # ts = timestamp
+    x2 = [ts.strftime('%b') for ts in x2_ts]
+
+    fig = {
+        'data': [
+            {
+                'x': x1,
+                'y': y1,
+                'name': 'Income',
+                'type': 'bar',
+                'marker': {'color': 'rgba(26,26,26,255)',
+                           'line': {'color': 'black', 'width': 1}}
+            },
+            {
+                'x': x2,
+                'y': y2,
+                'name': 'Spending',
+                'type': 'bar',
+                'marker': {'color': 'rgba(191,191,191,255)',
+                           'line': {'color': 'black', 'width': 1}}
+            }
+        ],
+        'layout': {
+            'margin': {'t': 30, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
+            'paper_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
+            'plot_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
+            'barmode': 'relative',
+            "legend": {"orientation": "h", "yanchor": "top", "y": 1.05, "xanchor": "center", "x": 0.5}
+        }
+    }
+    # Return the updated graph figure
     return fig
 
 
