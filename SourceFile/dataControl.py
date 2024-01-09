@@ -1,6 +1,7 @@
 import pandas as pd
 from dash import html
 import dash_bootstrap_components as dbc
+import plotly.express as px
 
 
 def update_saving(data):
@@ -30,51 +31,37 @@ def update_saving(data):
     return fig
 
 
-def update_income_spending(data, category_income, category_spending):
-    # filter keyword
-    df_income_filtered = data.df_income[data.df_income['Category'].isin(category_income)]
-    df_spending_filtered = data.df_spending[data.df_spending['Category'].isin(category_spending)]
+def update_income_spending(data):
 
-    # group dataframe for month
-    gr_income_filtered_by_moth = df_spending_filtered.groupby(pd.Grouper(key="Date", freq="M")).sum()
-    gr_spending_filtered_by_moth = df_income_filtered.groupby(pd.Grouper(key="Date", freq="M")).sum()
+    fig_data = []
 
-    y1 = gr_income_filtered_by_moth["Amount"].tolist()
-    x1_ts = gr_income_filtered_by_moth.index.tolist()
-    x1 = [ts.strftime('%b') for ts in x1_ts]
+    for category in data.categories:
+        category_data = data.gr_combined_by_month_and_category[data.gr_combined_by_month_and_category['Category'] == category]
 
-    y2 = gr_spending_filtered_by_moth["Amount"].tolist()
-    x2_ts = gr_spending_filtered_by_moth.index.tolist()  # ts = timestamp
-    x2 = [ts.strftime('%b') for ts in x2_ts]
+        y = category_data['Amount'].tolist()
+        x_ts = category_data['Month'].tolist()
+        x = [ts.strftime('%b') for ts in x_ts]
+
+        fig_data.append({
+            'x': x,
+            'y': y,
+            'name': category,
+            'type': 'bar',
+            'marker': {'line': {'width': 1}},
+        })
 
     fig = {
-        'data': [
-            {
-                'x': x1,
-                'y': y1,
-                'name': 'Income',
-                'type': 'bar',
-                'marker': {'color': 'rgba(26,26,26,255)',
-                           'line': {'color': 'black', 'width': 1}}
-            },
-            {
-                'x': x2,
-                'y': y2,
-                'name': 'Spending',
-                'type': 'bar',
-                'marker': {'color': 'rgba(191,191,191,255)',
-                           'line': {'color': 'black', 'width': 1}}
-            }
-        ],
+        'data': fig_data,
         'layout': {
             'margin': {'t': 30, 'b': 30, 'l': 30, 'r': 30},  # Remove graph margins
             'paper_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
             'plot_bgcolor': 'rgba(0,0,0,0)',  # Set graph background color
             'barmode': 'relative',
-            "legend": {"orientation": "h", "yanchor": "top", "y": 1.05, "xanchor": "center", "x": 0.5}
+            'legend': {'orientation': 'h', 'yanchor': 'middle', 'y': 0.5, 'xanchor': 'right', 'x': 10.0}
+            # Move legend to the right side
         }
     }
-    # Return the updated graph figure
+
     return fig
 
 
@@ -137,8 +124,8 @@ def update_bank_balance(data):
 
 
 def update_pie_spending(data):
-    x = data.gr_spending_by_categories_ges["Amount"].tolist()
-    y = data.gr_spending_by_categories_ges.index.tolist()
+    x = data.gr_spending_by_categories_average["Amount"].tolist()
+    y = data.gr_spending_by_categories_average.index.tolist()
 
     fig = {
         'data': [
@@ -232,6 +219,15 @@ def make_overview_card(title, start, end):
         inverse=True,
         className="text-center m-2",
     )
+
+
+def make_overview_category_card(data):
+    return [
+        html.Div(f"{category} - {total:.2f}€ - {average:.2f}€", className="card-text")
+        for category, total, average in zip(data.categories, data.gr_spending_by_categories_ges["Amount"],
+                                            data.gr_spending_by_categories_average["Amount"])
+        ]
+
 
 
 def make_keyword_card(title, keywords):

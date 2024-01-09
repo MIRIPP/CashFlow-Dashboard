@@ -94,13 +94,14 @@ app.layout = dbc.Container([
     [Output('graph-saving', 'figure'),
      Output('graph-bank-balance', 'figure'),
      Output('graph-pie-spending', 'figure'),
-     Output('graph-pie-income', 'figure')],
+     Output('graph-pie-income', 'figure'),
+     Output('graph-income-spending', 'figure')],
     Input('year-select', 'value'),
 )
 def update_graph(selected_year):
     df_data = dict_year_df[selected_year]
-    return dC.update_saving(df_data), dC.update_bank_balance(df_data), dC.update_pie_spending(df_data), dC.update_pie_income(df_data)
-
+    return dC.update_saving(df_data), dC.update_bank_balance(df_data), dC.update_pie_spending(df_data),\
+           dC.update_pie_income(df_data), dC.update_income_spending(df_data)
 
 @app.callback(
     Output('graph-spending-category', 'figure'),
@@ -113,15 +114,12 @@ def update_graph(month, year_selected):
 
 
 @app.callback(
-    Output('graph-income-spending', 'figure'),
-    [Input('select-category-income', 'value'),
-     Input('select-category-spending', 'value'),
-     Input('year-select', 'value')],
+    Output('card-overview-category', 'children'),
+    Input('year-select', 'value'),
 )
-def update_graph(category_income, category_spending, year_selected):
-    df_data = dict_year_df[year_selected]
-    return dC.update_income_spending(df_data, category_income, category_spending)
-
+def update_card(selected_year):
+    df_data = dict_year_df[selected_year]
+    return dC.make_overview_category_card(df_data)
 
 @app.callback(
     Output('card-row', 'children'),
@@ -196,4 +194,4 @@ def update_card(selected_year):
 
 # 5. Run the server
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run_server(debug=True)

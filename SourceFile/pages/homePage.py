@@ -55,23 +55,6 @@ card_incomeSpending = dbc.Card(
                 dbc.Col([
                     dcc.Graph(id='graph-income-spending')
                 ]),
-                dbc.Col([
-                    html.P("Select Category Spending", className="card-subtitle"),
-                    dcc.Dropdown(
-                        id="select-category-spending",
-                        options=[{"label": i, "value": i} for i in keywords_spending],
-                        value=list(keywords_spending.keys()),
-                        multi=True,
-                    ),
-                    html.Br(),
-                    html.P("Select Category Income", className="card-subtitle"),
-                    dcc.Dropdown(
-                        id="select-category-income",
-                        options=[{"label": i, "value": i} for i in keywords_income],
-                        value=list(keywords_income.keys()),
-                        multi=True,
-                    ),
-                ], width=5)
             ])
         ]),
     ],
@@ -151,12 +134,35 @@ card_pie_chart_income = dbc.Card(
     # color="light",  # https://bootswatch.com/default/ for more card colors,
 )
 
+card_overview_category = dbc.Card(
+    [
+        html.H4("Spending Overview", style={'color': 'black', 'font-weight': 'bold'}),
+        html.Div(id='card-overview-category'),
+    ],
+    style={
+        'background-color': 'rgba(237,237,237,1)',
+        'border-color': 'rgba(2,50,51,1)'
+    },
+    # Alternative style:
+    # className="shadow"
+    # color="light",  # https://bootswatch.com/default/ for more card colors,
+)
+
 layout = html.Div([
     # dbc.Row(id='card-row', className="my-2"),
     dbc.Row(
         [
             dbc.Col(card_spendingByCategory, width=7),
-            dbc.Col(card_saving, width=5),
+            dbc.Col(card_overview_category, width=5),
+        ],
+        style={"margin-bottom": "20px"},  # distance to next cards
+    ),
+    dbc.Row(
+        [
+            dbc.Col(card_incomeSpending, width=8),
+            dbc.Col(card_saving, width=4),
+            # dbc.Col(card_pie_chart_income, width=3),
+
         ],
         style={"margin-bottom": "20px"},  # distance to next cards
     ),
@@ -164,16 +170,12 @@ layout = html.Div([
         [
             dbc.Col(card_bankBalance, width=6),
             dbc.Col(card_pie_chart_spending, width=6),
-
-        ],
-        style={"margin-bottom": "20px"},  # distance to next cards
+        ]
     ),
     dbc.Row(
         [
-            dbc.Col(card_incomeSpending, width=9),
             dbc.Col(card_pie_chart_income, width=3),
-
         ]
-    )
+    ),
 ], style={"padding": "20px"}
 )
