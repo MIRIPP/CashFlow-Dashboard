@@ -15,7 +15,10 @@ def update_saving(data):
                 'x': y,
                 'y': x,
                 'type': 'bar',
-                'textposition': 'auto',  # Show text on bars
+                'text': [f'{val:,.2f} €' for val in x],  # Format text with desired format
+                'textposition': 'outside',  # Show text outside the bars
+                'insidetextanchor': 'start',  # Place text on top of the bars
+                'textfont': {'size': 3 * 12},
                 'marker': {'color': ['rgba(26,26,26,255)' if val < 0 else 'rgba(191,191,191,255)' for val in x],
                            'line': {'color': 'black', 'width': 1}}
             }
@@ -63,6 +66,7 @@ def update_income_spending_interactive(data, category_filtered):
     }
 
     return fig
+
 
 def update_income_spending(data):
 
@@ -129,6 +133,8 @@ def update_spending_category(data, month):
             {
                 'x': y2,
                 'y': x2,
+                'text': [f'{value:,.2f} €' for value in y2],  # Add the values of y2 as text
+                'textposition': 'outside',  # Set text position to be outside the bars
                 'orientation': 'h',
                 'name': 'selected Month',
                 'type': 'bar',
